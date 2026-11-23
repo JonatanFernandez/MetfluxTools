@@ -1,0 +1,15 @@
+# Local Python environments and build caches
+.venv/
+.venv-thermo/
+cache/
+**/__pycache__/
+*.pyc
+
+# Large raw downloads (>100 MB) and third-party supplementary files (see DATA_SOURCES.md)
+validation/preciat2017_additional_file3.zip
+validation/crown2015_mmc*
+validation/fujiwara2025_mmc1.xlsx
+validation/depmap/*.csv
+
+# Local run logs
+validation/depmap/log*.txt

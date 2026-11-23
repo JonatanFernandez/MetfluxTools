@@ -1,0 +1,391 @@
+{
+ "model": "yeast-GEM 9.1.1 as converted for MetfluxLive (data/yeast-gem)",
+ "solver": "HiGHS via js/core/fba.js",
+ "growth": {
+  "r2": 0.8849,
+  "upstream_r2": 0.9019,
+  "n": 32,
+  "perCondition": {
+   "N-limited aerobic": 0.037,
+   "C-limited aerobic": 0.055,
+   "C-limited anaerobic": 0.057,
+   "N-limited anaerobic": 0.381
+  },
+  "detail": [
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 5.8,
+    "o2": 2.7,
+    "nh3": 0.4,
+    "measured": 0.1,
+    "predicted": 0.1014,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 4.83,
+    "o2": 4.42,
+    "nh3": 0.42,
+    "measured": 0.1,
+    "predicted": 0.1065,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 3.5,
+    "o2": 7.8,
+    "nh3": 0.61,
+    "measured": 0.15,
+    "predicted": 0.1547,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 4.61,
+    "o2": 9.2,
+    "nh3": 0.74,
+    "measured": 0.18,
+    "predicted": 0.1876,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 5.3,
+    "o2": 1000,
+    "nh3": 0.85,
+    "measured": 0.2,
+    "predicted": 0.2155,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 5.67,
+    "o2": 8.7,
+    "nh3": 0.83,
+    "measured": 0.2,
+    "predicted": 0.2105,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 8,
+    "o2": 8.8,
+    "nh3": 0.96,
+    "measured": 0.25,
+    "predicted": 0.2434,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 9.45,
+    "o2": 9.3,
+    "nh3": 1.09,
+    "measured": 0.28,
+    "predicted": 0.2764,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited aerobic",
+    "glucose": 12.68,
+    "o2": 8.2,
+    "nh3": 1.33,
+    "measured": 0.34,
+    "predicted": 0.3373,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 1.15,
+    "o2": 2.7,
+    "nh3": 1000,
+    "measured": 0.1,
+    "predicted": 0.0936,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 1.17,
+    "o2": 2.5,
+    "nh3": 1000,
+    "measured": 0.1,
+    "predicted": 0.0888,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 1.69,
+    "o2": 4,
+    "nh3": 1000,
+    "measured": 0.15,
+    "predicted": 0.1369,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 2.26,
+    "o2": 5,
+    "nh3": 1000,
+    "measured": 0.2,
+    "predicted": 0.1831,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 2.88,
+    "o2": 6.5,
+    "nh3": 1000,
+    "measured": 0.25,
+    "predicted": 0.2389,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 3.27,
+    "o2": 7.46,
+    "nh3": 1000,
+    "measured": 0.27,
+    "predicted": 0.2711,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 3.29,
+    "o2": 7.8,
+    "nh3": 1000,
+    "measured": 0.28,
+    "predicted": 0.2662,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 3.88,
+    "o2": 8,
+    "nh3": 1000,
+    "measured": 0.31,
+    "predicted": 0.3025,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 6.2,
+    "o2": 7,
+    "nh3": 1000,
+    "measured": 0.33,
+    "predicted": 0.3204,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 7.89,
+    "o2": 6.5,
+    "nh3": 1000,
+    "measured": 0.35,
+    "predicted": 0.34,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited aerobic",
+    "glucose": 13.39,
+    "o2": 3,
+    "nh3": 1000,
+    "measured": 0.38,
+    "predicted": 0.3498,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 2.3,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.03,
+    "predicted": 0.0326,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 2.86,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.047,
+    "predicted": 0.042,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 5.88,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.101,
+    "predicted": 0.0926,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 11.31,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.19,
+    "predicted": 0.1835,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 16.75,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.281,
+    "predicted": 0.2745,
+    "status": "optimal"
+   },
+   {
+    "condition": "C-limited anaerobic",
+    "glucose": 22.18,
+    "o2": 0,
+    "nh3": 1000,
+    "measured": 0.369,
+    "predicted": 0.3655,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 4.15,
+    "o2": 0,
+    "nh3": 0.23,
+    "measured": 0.05,
+    "predicted": 0.0584,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 8.4,
+    "o2": 0,
+    "nh3": 0.48,
+    "measured": 0.1,
+    "predicted": 0.1219,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 8.7,
+    "o2": 0,
+    "nh3": 0.55,
+    "measured": 0.1,
+    "predicted": 0.1397,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 12.4,
+    "o2": 0,
+    "nh3": 0.92,
+    "measured": 0.16,
+    "predicted": 0.2337,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 15.3,
+    "o2": 0,
+    "nh3": 1.33,
+    "measured": 0.2,
+    "predicted": 0.3118,
+    "status": "optimal"
+   },
+   {
+    "condition": "N-limited anaerobic",
+    "glucose": 17.4,
+    "o2": 0,
+    "nh3": 1.62,
+    "measured": 0.24,
+    "predicted": 0.3554,
+    "status": "optimal"
+   }
+  ]
+ },
+ "essentiality": {
+  "accuracy": 0.9015,
+  "mcc": 0.532,
+  "tp": 933,
+  "tn": 65,
+  "fp": 94,
+  "fn": 15,
+  "upstream": {
+   "accuracy": 0.9015,
+   "tp": 933,
+   "tn": 65,
+   "fp": 94,
+   "fn": 15
+  },
+  "sameClassAsUpstream": "1107/1107",
+  "differ": []
+ },
+ "anaerobic": {
+  "fluxes_FBA": {
+   "medianFoldError": 1.0535,
+   "meanFoldError": 1.2207,
+   "within2fold": 0.924,
+   "unpredicted": 11,
+   "n": 90,
+   "worst": [
+    "Wasylenko2014 r_0173 : measured 5.485544848 predicted 1.16 (4.75x)",
+    "Jouhten2008 r_1049 transketolase 1: measured 1 predicted 2.91 (2.91x)",
+    "Wasylenko2014 r_0917 phosphoserine phosphatase (L-serine): measured 0.518902891 predicted 1.43 (2.76x)",
+    "Jouhten2008 r_2034 pyruvate transport: measured 8 predicted 3.33 (2.4x)",
+    "Wasylenko2014 r_2034 pyruvate transport: measured 1.482579689 predicted 3.43 (2.31x)",
+    "Celton2012 r_0173 : measured 2.4 predicted 1.16 (2.06x)",
+    "Wasylenko2014 r_0984 ribulose 5-phosphate 3-epimerase: measured 2.816901408 predicted 5.44 (1.93x)",
+    "Celton2012 r_1049 transketolase 1: measured 5.6 predicted 3.01 (1.86x)"
+   ]
+  },
+  "fluxes_pFBA": {
+   "medianFoldError": 1.0535,
+   "meanFoldError": 1.2207,
+   "within2fold": 0.924,
+   "unpredicted": 11,
+   "n": 90,
+   "worst": [
+    "Wasylenko2014 r_0173 : measured 5.485544848 predicted 1.16 (4.75x)",
+    "Jouhten2008 r_1049 transketolase 1: measured 1 predicted 2.91 (2.91x)",
+    "Wasylenko2014 r_0917 phosphoserine phosphatase (L-serine): measured 0.518902891 predicted 1.43 (2.76x)",
+    "Jouhten2008 r_2034 pyruvate transport: measured 8 predicted 3.33 (2.4x)",
+    "Wasylenko2014 r_2034 pyruvate transport: measured 1.482579689 predicted 3.43 (2.31x)",
+    "Celton2012 r_0173 : measured 2.4 predicted 1.16 (2.06x)",
+    "Wasylenko2014 r_0984 ribulose 5-phosphate 3-epimerase: measured 2.816901408 predicted 5.44 (1.93x)",
+    "Celton2012 r_1049 transketolase 1: measured 5.6 predicted 3.01 (1.86x)"
+   ]
+  },
+  "upstream_medianFoldError": 1.0615,
+  "exchanges": [
+   {
+    "exchange": "glycerol exchange",
+    "measured": 4.5,
+    "sd": 0.4,
+    "predicted": 4.353,
+    "within": true
+   },
+   {
+    "exchange": "ethanol exchange",
+    "measured": 31,
+    "sd": 2,
+    "predicted": 35.707,
+    "within": false
+   },
+   {
+    "exchange": "carbon dioxide exchange",
+    "measured": 38,
+    "sd": 10,
+    "predicted": 38.774,
+    "within": true
+   },
+   {
+    "exchange": "biomass pseudoreaction",
+    "measured": 0.36,
+    "sd": 0.02,
+    "predicted": 0.379,
+    "within": true
+   }
+  ],
+  "exchangeMeanRelativeError": 0.0644,
+  "upstream_exchangeMRE": 0.0645
+ }
+}

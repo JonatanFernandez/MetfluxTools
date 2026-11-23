@@ -1,0 +1,918 @@
+{
+"source": "Fujiwara et al. 2025, Metab Eng Commun 20:e00260, Supplementary Data S1 (SD medium, [1-13C]glucose); CC BY-NC 4.0",
+"fluxes": {
+"Glcin": {
+"reaction": "SubsGlc-->G6P",
+"best": 14.8903619318216,
+"lo": null,
+"hi": null,
+"type": "fitting",
+"measured": 14.84371507,
+"sd": 0.623878857
+},
+"oxPPP": {
+"reaction": "G6P-->Ru5P+CO2in",
+"best": 1.29542888345664,
+"lo": 0.8853,
+"hi": 1.5535,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r2": {
+"reaction": "G6P-->F6P",
+"best": 108.007199535627,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r3": {
+"reaction": "F6P-->G6P",
+"best": 94.7699358830902,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r4": {
+"reaction": "F6P-->DHAP+GAP",
+"best": 13.6786394213562,
+"lo": 13.2066,
+"hi": 14.122,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r5": {
+"reaction": "DHAP-->GAP",
+"best": 1192.50825430536,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r6": {
+"reaction": "GAP-->DHAP",
+"best": 1178.85755206189,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r7": {
+"reaction": "GAP-->PGA",
+"best": 31.222522809132,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r8": {
+"reaction": "PGA-->GAP",
+"best": 4.71213983054766,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r9": {
+"reaction": "PGA-->Ser",
+"best": 0.308952140365029,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r10": {
+"reaction": "Ser-->Gly+CO2in",
+"best": 0.147210584183824,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r11": {
+"reaction": "PGA-->PEP",
+"best": 1846.35140009029,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r12": {
+"reaction": "PEP-->PGA",
+"best": 1820.14996925208,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r13": {
+"reaction": "PEP-->PYRcyt",
+"best": 25.9080904704179,
+"lo": 25.4411,
+"hi": 26.7887,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r15": {
+"reaction": "PYRcyt+CO2in-->OAAcyt",
+"best": 1.33776676741648,
+"lo": 1.2695,
+"hi": 1.5115,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r16": {
+"reaction": "PYRcyt-->PYRmit",
+"best": 0.356612885224876,
+"lo": 0.2491,
+"hi": 0.5536,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r17": {
+"reaction": "OAAcyt-->Thr",
+"best": 0.247585850676664,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r18": {
+"reaction": "Thr-->Gly+AcAl",
+"best": 0.0645238166352051,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r19": {
+"reaction": "PYRcyt-->AcAl+CO2in",
+"best": 24.20885876294,
+"lo": 23.1961,
+"hi": 24.2777,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r20": {
+"reaction": "PYRmit-->AcCOAmit+CO2in",
+"best": 0.0187627068141462,
+"lo": 0.0,
+"hi": 0.4099,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r21": {
+"reaction": "AcCOAmit+OAAmit-->IsoCitmit",
+"best": 0.435968042582877,
+"lo": 0.4317,
+"hi": 0.4596,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r22": {
+"reaction": "IsoCitmit-->aKGmit+CO2in",
+"best": 0.435968042582877,
+"lo": 0.4318,
+"hi": 0.4596,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r23": {
+"reaction": "aKGmit-->Sucmit+CO2ex",
+"best": 1.02978535682085e-06,
+"lo": 0.0,
+"hi": 0.0231,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r24": {
+"reaction": "Sucmit-->Malmit",
+"best": 175.507919419275,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r25": {
+"reaction": "Malmit-->Sucmit",
+"best": 175.50791838949,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r26": {
+"reaction": "Malmit-->OAAmit",
+"best": 194.203502932387,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r27": {
+"reaction": "OAAmit-->Malmit",
+"best": 194.607383988909,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r28": {
+"reaction": "Malmit-->PYRmit+CO2in",
+"best": 0.403882086307295,
+"lo": 0.2985,
+"hi": 0.7163,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r29": {
+"reaction": "OAAcyt-->OAAmit",
+"best": 0.90324286944268,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r30": {
+"reaction": "OAAmit-->OAAcyt",
+"best": 0.0633937703378633,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r31": {
+"reaction": "AcAl-->Acetate",
+"best": 1.73384319000035,
+"lo": 1.342,
+"hi": 1.7895,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r32": {
+"reaction": "Acetate-->AcCOAcyt",
+"best": 1.35016003937759,
+"lo": 0.9556,
+"hi": 1.3934,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r33": {
+"reaction": "Ru5P-->R5P",
+"best": 902.027997498131,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r34": {
+"reaction": "R5P-->Ru5P",
+"best": 901.4713282902,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r35": {
+"reaction": "Ru5P-->Xu5P",
+"best": 1239.52732328839,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r36": {
+"reaction": "Xu5P-->Ru5P",
+"best": 1238.78856361286,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r37": {
+"reaction": "E4P+Xu5P-->F6P+GAP",
+"best": 0.293472584691168,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r38": {
+"reaction": "GAP+F6P-->Xu5P+E4P",
+"best": 1.00000000038823e-06,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r39": {
+"reaction": "GAP+S7P-->F6P+E4P",
+"best": 1.52380474586477,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r40": {
+"reaction": "E4P+F6P-->S7P+GAP",
+"best": 1.07851665503079,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r41": {
+"reaction": "R5P+Xu5P-->S7P+GAP",
+"best": 1.43968076411379,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r42": {
+"reaction": "GAP+S7P-->Xu5P+R5P",
+"best": 0.994392673279811,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r43": {
+"reaction": "AcCOAcyt-->AcCOAmit",
+"best": 447.241856163048,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r44": {
+"reaction": "AcCOAmit-->AcCOAcyt",
+"best": 446.679083426716,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r45": {
+"reaction": "PYRmit-->Ala",
+"best": 0.144391290185166,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"r46": {
+"reaction": "PYRcyt-->Ala",
+"best": 0.004852054836582,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"Glycerolex": {
+"reaction": "GAP-->Glycerolex",
+"best": 1.11243027093344,
+"lo": null,
+"hi": null,
+"type": "fitting",
+"measured": 1.112514831,
+"sd": 0.031059081
+},
+"EtOHex": {
+"reaction": "AcAl-->EtOHex",
+"best": 22.5395393895748,
+"lo": null,
+"hi": null,
+"type": "fitting",
+"measured": 22.56395482,
+"sd": 0.607020963
+},
+"Acetateex": {
+"reaction": "Acetate-->Acetateex",
+"best": 0.383683150622758,
+"lo": null,
+"hi": null,
+"type": "fitting",
+"measured": 0.383710947,
+"sd": 0.021264381
+},
+"CO2uptake": {
+"reaction": "SubsCO2-->CO2in",
+"best": 2.73511474649682,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"CO2ex": {
+"reaction": "CO2in-->CO2ex",
+"best": 27.9074590453651,
+"lo": null,
+"hi": null,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"Biomass": {
+"reaction": "{0.973}G6P+{0.809}F6P+{0.076}DHAP+{0.798}PEP+{1.625}PYRmit+{0.413}E4P+{0.303}R5P+{0.396}AcCOAmit+{2.142}AcCOAcyt+{1.186}aKGmit+{0.681}OAAcyt+{0.498}Thr+{0.44}Ser+{0.576}Gly+{0.406}Ala-->biomassex",
+"best": 0.367594445866375,
+"lo": null,
+"hi": null,
+"type": "fitting",
+"measured": 0.3676,
+"sd": 0.002251666
+},
+"PGI": {
+"reaction": "r2<=>r3",
+"best": 13.2372636525369,
+"lo": 13.0108,
+"hi": 13.775,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"TPI": {
+"reaction": "r5<=>r6",
+"best": 13.6507022434703,
+"lo": 13.1742,
+"hi": 14.1087,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"TDH": {
+"reaction": "r7<=>r8",
+"best": 26.5103829785843,
+"lo": 26.2836,
+"hi": 26.977,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"ENO": {
+"reaction": "r11<=>r12",
+"best": 26.2014308382193,
+"lo": 25.7428,
+"hi": 26.8745,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"SDH": {
+"reaction": "r24<=>r25",
+"best": 1.02978535682085e-06,
+"lo": -0.2929,
+"hi": 0.0235,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"OAAtrans": {
+"reaction": "r29<=>r30",
+"best": 0.839849099104816,
+"lo": 0.7264,
+"hi": 1.022,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"MDH": {
+"reaction": "r26<=>r27",
+"best": -0.403881056521938,
+"lo": -0.4692,
+"hi": -0.2887,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"RPI": {
+"reaction": "r33<=>r34",
+"best": 0.556669207931493,
+"lo": 0.4172,
+"hi": 0.616,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"RPE": {
+"reaction": "r35<=>r36",
+"best": 0.738759675525149,
+"lo": 0.4818,
+"hi": 0.9014,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"TAL2": {
+"reaction": "r39<=>r40",
+"best": 0.445288090833981,
+"lo": 0.3026,
+"hi": 0.5148,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"TKL1": {
+"reaction": "r41<=>r42",
+"best": 0.445288090833981,
+"lo": 0.3174,
+"hi": 0.5224,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"TKL2": {
+"reaction": "r37<=>r38",
+"best": 0.293471584691168,
+"lo": 0.1528,
+"hi": 0.3751,
+"type": "free",
+"measured": null,
+"sd": null
+},
+"AcCOAtrans": {
+"reaction": "r43<=>r44",
+"best": 0.562772736331816,
+"lo": 0.1714,
+"hi": 0.5803,
+"type": "free",
+"measured": null,
+"sd": null
+}
+},
+"mids": {
+"Ala[M-57]": [
+0.506016568,
+0.482174605,
+0.011537434,
+0.000271393
+],
+"Ala[M-85]": [
+0.509287043,
+0.482872371,
+0.007840586
+],
+"Asp[M-57]": [
+0.484487646,
+0.482565601,
+0.031015125,
+0.001196042,
+0.000735585
+],
+"Asp[M-85]": [
+0.491285108,
+0.482259627,
+0.026226486,
+0.000228779
+],
+"Glu[M-159]": [
+0.282757714,
+0.492638752,
+0.218258294,
+0.005893383,
+0.000451857
+],
+"Glu[M-57]": [
+0.270435863,
+0.486625516,
+0.225909974,
+0.01382885,
+0.003199797,
+-1e-11
+],
+"Glu[M-85]": [
+0.283693187,
+0.491744067,
+0.218920506,
+0.005572764,
+6.95e-05
+],
+"Gly[M-57]": [
+0.971502207,
+0.027994887,
+0.000502907
+],
+"Gly[M-85]": [
+0.984412724,
+0.015587276
+],
+"Ile[M-159]": [
+0.250212841,
+0.486373624,
+0.243854538,
+0.018052622,
+0.001506375,
+-1e-11
+],
+"Leu[M-159]": [
+0.14369525,
+0.396372436,
+0.34574709,
+0.110055578,
+0.003788407,
+0.00034124
+],
+"Phe[302]": [
+0.968966613,
+0.031009367,
+2.4e-05
+],
+"Phe[M-57]": [
+0.190679986,
+0.433942562,
+0.295258884,
+0.069954973,
+0.00404607,
+0.004561647,
+0.000593386,
+0.000962492,
+-1.09e-16,
+-1.31e-19
+],
+"Pro[M-159]": [
+0.292150922,
+0.488682261,
+0.21291816,
+0.005641105,
+0.000607552
+],
+"Pro[M-57]": [
+0.281965576,
+0.481306293,
+0.222143392,
+0.013745319,
+0.000812523,
+2.69e-05
+],
+"Ser[302]": [
+0.970856765,
+0.027000379,
+0.002142856
+],
+"Ser[M-159]": [
+0.528114616,
+0.463314135,
+0.008571248
+],
+"Ser[M-57]": [
+0.526729592,
+0.460347496,
+0.012557536,
+0.000365376
+],
+"Thr[M-57]": [
+0.486728953,
+0.479565564,
+0.033038103,
+0.000618806,
+4.86e-05
+],
+"Thr[M-85]": [
+0.488258562,
+0.484261251,
+0.026835354,
+0.000644833
+],
+"Tyr[302]": [
+0.97209772,
+0.027764391,
+0.000137889
+],
+"Tyr[M-57]": [
+0.198807961,
+0.437572837,
+0.294327816,
+0.065499913,
+0.00283298,
+0.00065915,
+0.000105108,
+0.000160636,
+-1.09e-16,
+3.36e-05
+],
+"Val[302]": [
+0.835988633,
+0.128811095,
+0.035200273
+],
+"Val[M-57]": [
+0.255488196,
+0.49750395,
+0.237752148,
+0.008806015,
+0.000317886,
+0.000131805
+]
+},
+"fitted": {
+"Ala[M-57]": [
+0.51108964222663,
+0.472219123175434,
+0.0165622643778871,
+0.000128970220043169
+],
+"Ala[M-85]": [
+0.52626629873194,
+0.468708354392703,
+0.00502534687534519
+],
+"Asp[M-57]": [
+0.485899447047166,
+0.474888716929312,
+0.038483854941879,
+0.000723781550180548,
+4.19953148671112e-06
+],
+"Asp[M-85]": [
+0.495449941990091,
+0.472134484784552,
+0.0321217895059277,
+0.000293783719450819
+],
+"Glu[M-159]": [
+0.276935341400901,
+0.493302503297676,
+0.224998603025702,
+0.00473800594457903,
+2.55463311440925e-05
+],
+"Glu[M-57]": [
+0.266110520264375,
+0.485493353973452,
+0.235420755356091,
+0.0127758640789871,
+0.000198561756554948,
+9.44570552324579e-07
+],
+"Glu[M-85]": [
+0.276935341400901,
+0.493302503297676,
+0.224998603025702,
+0.00473800594457903,
+2.55463311440925e-05
+],
+"Gly[M-57]": [
+0.970221828796495,
+0.0293826389397141,
+0.000395532263804756
+],
+"Gly[M-85]": [
+0.985930928128586,
+0.0140690718714276
+],
+"Ile[M-159]": [
+0.260738605967196,
+0.480689993784023,
+0.240687801631357,
+0.0175830001634893,
+0.000299122088208652,
+1.47636573600557e-06
+],
+"Leu[M-159]": [
+0.148149554359506,
+0.392699424643398,
+0.349782790643728,
+0.107152058196857,
+0.00220442697671152,
+1.17451798142444e-05
+],
+"Phe[302]": [
+0.973451765020838,
+0.0263413292910693,
+0.000206905688106545
+],
+"Phe[M-57]": [
+0.200750641449595,
+0.43028192289508,
+0.295394523693522,
+0.0686666378298863,
+0.00471581295814861,
+0.000186551641179362,
+3.86867224235345e-06,
+4.0663824476852e-08,
+1.96391720067052e-10,
+3.02071560458788e-13
+],
+"Pro[M-159]": [
+0.276935341400901,
+0.493302503297676,
+0.224998603025702,
+0.00473800594457903,
+2.55463311440925e-05
+],
+"Pro[M-57]": [
+0.266110520264375,
+0.485493353973452,
+0.235420755356091,
+0.0127758640789871,
+0.000198561756554948,
+9.44570552324579e-07
+],
+"Ser[302]": [
+0.973451765020838,
+0.0263413292910693,
+0.000206905688106545
+],
+"Ser[M-159]": [
+0.526266371462692,
+0.468708346433591,
+0.0050252821037298
+],
+"Ser[M-57]": [
+0.516628130319957,
+0.472249081846828,
+0.0110521829107295,
+7.06049225018585e-05
+],
+"Thr[M-57]": [
+0.485899447047166,
+0.474888716929312,
+0.038483854941879,
+0.000723781550180548,
+4.19953148671111e-06
+],
+"Thr[M-85]": [
+0.495449941990091,
+0.472134484784552,
+0.0321217895059277,
+0.000293783719450819
+],
+"Tyr[302]": [
+0.973451765020838,
+0.0263413292910693,
+0.000206905688106545
+],
+"Tyr[M-57]": [
+0.200750641449595,
+0.43028192289508,
+0.295394523693522,
+0.0686666378298863,
+0.00471581295814861,
+0.000186551641179362,
+3.86867224235345e-06,
+4.0663824476852e-08,
+1.96391720067052e-10,
+3.02071560458788e-13
+],
+"Val[302]": [
+0.848486551971166,
+0.144008639663478,
+0.00750480836534836
+],
+"Val[M-57]": [
+0.268871308262388,
+0.48797723191933,
+0.23271364897558,
+0.0102916225349586,
+0.000145530331239289,
+6.57976485241621e-07
+]
+}
+}

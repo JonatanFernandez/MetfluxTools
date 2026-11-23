@@ -1,0 +1,761 @@
+{
+ "lines": 122,
+ "genes": 2800,
+ "commonEssential": 420,
+ "results": {
+  "Chronos <= -0.5": {
+   "generic": {
+    "all": {
+     "tp": 8939,
+     "fp": 3369,
+     "fn": 28347,
+     "tn": 295931,
+     "precision": 0.726,
+     "recall": 0.24,
+     "mcc": 0.382
+    },
+    "withoutCommon": {
+     "tp": 120,
+     "fp": 1831,
+     "fn": 4576,
+     "tn": 279310,
+     "precision": 0.062,
+     "recall": 0.026,
+     "mcc": 0.029
+    },
+    "lineSpecific": {
+     "genes": 350,
+     "tp": 1897,
+     "fp": 1641,
+     "fn": 15363,
+     "tn": 22811,
+     "precision": 0.536,
+     "recall": 0.11,
+     "mcc": 0.076,
+     "predictedToVary": 0,
+     "varyInRightDirection": 0
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.374,
+     "Lung": 0.374,
+     "Breast": 0.385,
+     "Bladder/Urinary Tract": 0.395,
+     "Soft Tissue": 0.372,
+     "Esophagus/Stomach": 0.385,
+     "Pancreas": 0.398,
+     "Lymphoid": 0.376,
+     "Prostate": 0.406,
+     "CNS/Brain": 0.402,
+     "Biliary Tract": 0.35,
+     "Kidney": 0.372,
+     "Myeloid": 0.37,
+     "Head and Neck": 0.398,
+     "Bowel": 0.367,
+     "Skin": 0.385,
+     "Peripheral Nervous System": 0.365,
+     "Pleura": 0.364,
+     "Thyroid": 0.39,
+     "Liver": 0.393,
+     "Bone": 0.425,
+     "Uterus": 0.38
+    }
+   },
+   "block": {
+    "all": {
+     "tp": 10196,
+     "fp": 9922,
+     "fn": 27090,
+     "tn": 289378,
+     "precision": 0.507,
+     "recall": 0.273,
+     "mcc": 0.318
+    },
+    "withoutCommon": {
+     "tp": 248,
+     "fp": 6796,
+     "fn": 4448,
+     "tn": 274345,
+     "precision": 0.035,
+     "recall": 0.053,
+     "mcc": 0.023
+    },
+    "lineSpecific": {
+     "genes": 350,
+     "tp": 2712,
+     "fp": 2627,
+     "fn": 14548,
+     "tn": 21825,
+     "precision": 0.508,
+     "recall": 0.157,
+     "mcc": 0.073,
+     "predictedToVary": 26,
+     "varyInRightDirection": 13
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.306,
+     "Lung": 0.311,
+     "Breast": 0.318,
+     "Bladder/Urinary Tract": 0.327,
+     "Soft Tissue": 0.309,
+     "Esophagus/Stomach": 0.325,
+     "Pancreas": 0.331,
+     "Lymphoid": 0.323,
+     "Prostate": 0.347,
+     "CNS/Brain": 0.322,
+     "Biliary Tract": 0.295,
+     "Kidney": 0.318,
+     "Myeloid": 0.318,
+     "Head and Neck": 0.327,
+     "Bowel": 0.311,
+     "Skin": 0.317,
+     "Peripheral Nervous System": 0.299,
+     "Pleura": 0.297,
+     "Thyroid": 0.33,
+     "Liver": 0.321,
+     "Bone": 0.338,
+     "Uterus": 0.317
+    }
+   },
+   "complex": {
+    "all": {
+     "tp": 10205,
+     "fp": 9924,
+     "fn": 27081,
+     "tn": 289376,
+     "precision": 0.507,
+     "recall": 0.274,
+     "mcc": 0.318
+    },
+    "withoutCommon": {
+     "tp": 249,
+     "fp": 6798,
+     "fn": 4447,
+     "tn": 274343,
+     "precision": 0.035,
+     "recall": 0.053,
+     "mcc": 0.024
+    },
+    "lineSpecific": {
+     "genes": 350,
+     "tp": 2720,
+     "fp": 2627,
+     "fn": 14540,
+     "tn": 21825,
+     "precision": 0.509,
+     "recall": 0.158,
+     "mcc": 0.074,
+     "predictedToVary": 34,
+     "varyInRightDirection": 21
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.31,
+     "Lung": 0.311,
+     "Breast": 0.318,
+     "Bladder/Urinary Tract": 0.327,
+     "Soft Tissue": 0.309,
+     "Esophagus/Stomach": 0.325,
+     "Pancreas": 0.331,
+     "Lymphoid": 0.323,
+     "Prostate": 0.347,
+     "CNS/Brain": 0.322,
+     "Biliary Tract": 0.295,
+     "Kidney": 0.318,
+     "Myeloid": 0.318,
+     "Head and Neck": 0.327,
+     "Bowel": 0.311,
+     "Skin": 0.317,
+     "Peripheral Nervous System": 0.299,
+     "Pleura": 0.297,
+     "Thyroid": 0.33,
+     "Liver": 0.321,
+     "Bone": 0.338,
+     "Uterus": 0.317
+    }
+   }
+  },
+  "Chronos <= -1": {
+   "generic": {
+    "all": {
+     "tp": 6352,
+     "fp": 5956,
+     "fn": 11441,
+     "tn": 312837,
+     "precision": 0.516,
+     "recall": 0.357,
+     "mcc": 0.403
+    },
+    "withoutCommon": {
+     "tp": 10,
+     "fp": 1941,
+     "fn": 384,
+     "tn": 283502,
+     "precision": 0.005,
+     "recall": 0.025,
+     "mcc": 0.008
+    },
+    "lineSpecific": {
+     "genes": 163,
+     "tp": 1764,
+     "fp": 1883,
+     "fn": 6616,
+     "tn": 9366,
+     "precision": 0.484,
+     "recall": 0.211,
+     "mcc": 0.055,
+     "predictedToVary": 0,
+     "varyInRightDirection": 0
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.409,
+     "Lung": 0.4,
+     "Breast": 0.41,
+     "Bladder/Urinary Tract": 0.408,
+     "Soft Tissue": 0.373,
+     "Esophagus/Stomach": 0.406,
+     "Pancreas": 0.399,
+     "Lymphoid": 0.39,
+     "Prostate": 0.398,
+     "CNS/Brain": 0.42,
+     "Biliary Tract": 0.377,
+     "Kidney": 0.397,
+     "Myeloid": 0.423,
+     "Head and Neck": 0.399,
+     "Bowel": 0.384,
+     "Skin": 0.403,
+     "Peripheral Nervous System": 0.386,
+     "Pleura": 0.4,
+     "Thyroid": 0.421,
+     "Liver": 0.42,
+     "Bone": 0.43,
+     "Uterus": 0.402
+    }
+   },
+   "block": {
+    "all": {
+     "tp": 6779,
+     "fp": 13339,
+     "fn": 11014,
+     "tn": 305454,
+     "precision": 0.337,
+     "recall": 0.381,
+     "mcc": 0.32
+    },
+    "withoutCommon": {
+     "tp": 15,
+     "fp": 7029,
+     "fn": 379,
+     "tn": 278414,
+     "precision": 0.002,
+     "recall": 0.038,
+     "mcc": 0.003
+    },
+    "lineSpecific": {
+     "genes": 163,
+     "tp": 2153,
+     "fp": 2553,
+     "fn": 6227,
+     "tn": 8696,
+     "precision": 0.458,
+     "recall": 0.257,
+     "mcc": 0.035,
+     "predictedToVary": 14,
+     "varyInRightDirection": 8
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.321,
+     "Lung": 0.32,
+     "Breast": 0.321,
+     "Bladder/Urinary Tract": 0.324,
+     "Soft Tissue": 0.291,
+     "Esophagus/Stomach": 0.326,
+     "Pancreas": 0.327,
+     "Lymphoid": 0.309,
+     "Prostate": 0.323,
+     "CNS/Brain": 0.323,
+     "Biliary Tract": 0.304,
+     "Kidney": 0.323,
+     "Myeloid": 0.332,
+     "Head and Neck": 0.312,
+     "Bowel": 0.311,
+     "Skin": 0.323,
+     "Peripheral Nervous System": 0.307,
+     "Pleura": 0.305,
+     "Thyroid": 0.342,
+     "Liver": 0.327,
+     "Bone": 0.329,
+     "Uterus": 0.322
+    }
+   },
+   "complex": {
+    "all": {
+     "tp": 6780,
+     "fp": 13349,
+     "fn": 11013,
+     "tn": 305444,
+     "precision": 0.337,
+     "recall": 0.381,
+     "mcc": 0.32
+    },
+    "withoutCommon": {
+     "tp": 15,
+     "fp": 7032,
+     "fn": 379,
+     "tn": 278411,
+     "precision": 0.002,
+     "recall": 0.038,
+     "mcc": 0.003
+    },
+    "lineSpecific": {
+     "genes": 163,
+     "tp": 2153,
+     "fp": 2554,
+     "fn": 6227,
+     "tn": 8695,
+     "precision": 0.457,
+     "recall": 0.257,
+     "mcc": 0.035,
+     "predictedToVary": 15,
+     "varyInRightDirection": 8
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.32,
+     "Lung": 0.32,
+     "Breast": 0.321,
+     "Bladder/Urinary Tract": 0.324,
+     "Soft Tissue": 0.291,
+     "Esophagus/Stomach": 0.326,
+     "Pancreas": 0.327,
+     "Lymphoid": 0.309,
+     "Prostate": 0.323,
+     "CNS/Brain": 0.323,
+     "Biliary Tract": 0.304,
+     "Kidney": 0.323,
+     "Myeloid": 0.332,
+     "Head and Neck": 0.312,
+     "Bowel": 0.311,
+     "Skin": 0.323,
+     "Peripheral Nervous System": 0.307,
+     "Pleura": 0.305,
+     "Thyroid": 0.342,
+     "Liver": 0.327,
+     "Bone": 0.329,
+     "Uterus": 0.322
+    }
+   }
+  },
+  "P(dependency) >= 0.5": {
+   "generic": {
+    "all": {
+     "tp": 9074,
+     "fp": 3234,
+     "fn": 30654,
+     "tn": 293624,
+     "precision": 0.737,
+     "recall": 0.228,
+     "mcc": 0.374
+    },
+    "withoutCommon": {
+     "tp": 151,
+     "fp": 1800,
+     "fn": 5468,
+     "tn": 278418,
+     "precision": 0.077,
+     "recall": 0.027,
+     "mcc": 0.034
+    },
+    "lineSpecific": {
+     "genes": 381,
+     "tp": 2046,
+     "fp": 1614,
+     "fn": 16478,
+     "tn": 25239,
+     "precision": 0.559,
+     "recall": 0.11,
+     "mcc": 0.091,
+     "predictedToVary": 0,
+     "varyInRightDirection": 0
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.361,
+     "Lung": 0.362,
+     "Breast": 0.384,
+     "Bladder/Urinary Tract": 0.382,
+     "Soft Tissue": 0.354,
+     "Esophagus/Stomach": 0.376,
+     "Pancreas": 0.388,
+     "Lymphoid": 0.373,
+     "Prostate": 0.414,
+     "CNS/Brain": 0.385,
+     "Biliary Tract": 0.356,
+     "Kidney": 0.373,
+     "Myeloid": 0.362,
+     "Head and Neck": 0.392,
+     "Bowel": 0.37,
+     "Skin": 0.376,
+     "Peripheral Nervous System": 0.36,
+     "Pleura": 0.367,
+     "Thyroid": 0.37,
+     "Liver": 0.355,
+     "Bone": 0.379,
+     "Uterus": 0.378
+    }
+   },
+   "block": {
+    "all": {
+     "tp": 10406,
+     "fp": 9712,
+     "fn": 29322,
+     "tn": 287146,
+     "precision": 0.517,
+     "recall": 0.262,
+     "mcc": 0.312
+    },
+    "withoutCommon": {
+     "tp": 296,
+     "fp": 6748,
+     "fn": 5323,
+     "tn": 273470,
+     "precision": 0.042,
+     "recall": 0.053,
+     "mcc": 0.026
+    },
+    "lineSpecific": {
+     "genes": 381,
+     "tp": 2818,
+     "fp": 2521,
+     "fn": 15706,
+     "tn": 24332,
+     "precision": 0.528,
+     "recall": 0.152,
+     "mcc": 0.089,
+     "predictedToVary": 26,
+     "varyInRightDirection": 13
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.298,
+     "Lung": 0.301,
+     "Breast": 0.317,
+     "Bladder/Urinary Tract": 0.315,
+     "Soft Tissue": 0.295,
+     "Esophagus/Stomach": 0.318,
+     "Pancreas": 0.325,
+     "Lymphoid": 0.321,
+     "Prostate": 0.359,
+     "CNS/Brain": 0.313,
+     "Biliary Tract": 0.292,
+     "Kidney": 0.316,
+     "Myeloid": 0.31,
+     "Head and Neck": 0.324,
+     "Bowel": 0.317,
+     "Skin": 0.31,
+     "Peripheral Nervous System": 0.298,
+     "Pleura": 0.296,
+     "Thyroid": 0.315,
+     "Liver": 0.29,
+     "Bone": 0.304,
+     "Uterus": 0.313
+    }
+   },
+   "complex": {
+    "all": {
+     "tp": 10415,
+     "fp": 9714,
+     "fn": 29313,
+     "tn": 287144,
+     "precision": 0.517,
+     "recall": 0.262,
+     "mcc": 0.312
+    },
+    "withoutCommon": {
+     "tp": 297,
+     "fp": 6750,
+     "fn": 5322,
+     "tn": 273468,
+     "precision": 0.042,
+     "recall": 0.053,
+     "mcc": 0.026
+    },
+    "lineSpecific": {
+     "genes": 381,
+     "tp": 2825,
+     "fp": 2521,
+     "fn": 15699,
+     "tn": 24332,
+     "precision": 0.528,
+     "recall": 0.153,
+     "mcc": 0.089,
+     "predictedToVary": 33,
+     "varyInRightDirection": 20
+    },
+    "byLineage": {
+     "Ovary/Fallopian Tube": 0.302,
+     "Lung": 0.301,
+     "Breast": 0.317,
+     "Bladder/Urinary Tract": 0.315,
+     "Soft Tissue": 0.295,
+     "Esophagus/Stomach": 0.318,
+     "Pancreas": 0.325,
+     "Lymphoid": 0.321,
+     "Prostate": 0.359,
+     "CNS/Brain": 0.313,
+     "Biliary Tract": 0.292,
+     "Kidney": 0.316,
+     "Myeloid": 0.31,
+     "Head and Neck": 0.324,
+     "Bowel": 0.317,
+     "Skin": 0.31,
+     "Peripheral Nervous System": 0.298,
+     "Pleura": 0.296,
+     "Thyroid": 0.315,
+     "Liver": 0.29,
+     "Bone": 0.304,
+     "Uterus": 0.313
+    }
+   }
+  }
+ },
+ "topFalseEssential": [
+  [
+   "ACADL",
+   122
+  ],
+  [
+   "ALDH9A1",
+   122
+  ],
+  [
+   "AMACR",
+   122
+  ],
+  [
+   "BBOX1",
+   122
+  ],
+  [
+   "CYP1A2",
+   122
+  ],
+  [
+   "CYP24A1",
+   122
+  ],
+  [
+   "CYP26B1",
+   122
+  ],
+  [
+   "CYP51A1",
+   122
+  ],
+  [
+   "HADHB",
+   122
+  ],
+  [
+   "NADK",
+   122
+  ],
+  [
+   "NSDHL",
+   122
+  ],
+  [
+   "NUP210",
+   122
+  ],
+  [
+   "SEC11C",
+   122
+  ],
+  [
+   "TMLHE",
+   122
+  ],
+  [
+   "ACAA2",
+   121
+  ],
+  [
+   "ACADSB",
+   121
+  ],
+  [
+   "EBP",
+   121
+  ],
+  [
+   "FLAD1",
+   121
+  ],
+  [
+   "GSS",
+   121
+  ],
+  [
+   "LSS",
+   121
+  ],
+  [
+   "MMAA",
+   121
+  ],
+  [
+   "PNPO",
+   121
+  ],
+  [
+   "POLR1D",
+   121
+  ],
+  [
+   "RRM2B",
+   121
+  ],
+  [
+   "SHMT1",
+   121
+  ],
+  [
+   "SLC5A6",
+   121
+  ],
+  [
+   "SPR",
+   121
+  ],
+  [
+   "DHCR24",
+   120
+  ],
+  [
+   "DHCR7",
+   120
+  ],
+  [
+   "GCH1",
+   120
+  ]
+ ],
+ "topMissedEssential": [
+  [
+   "ATP2A2",
+   122
+  ],
+  [
+   "ATP5MF",
+   122
+  ],
+  [
+   "ATP6V0C",
+   122
+  ],
+  [
+   "ATP6V1A",
+   122
+  ],
+  [
+   "ATP6V1E1",
+   122
+  ],
+  [
+   "DAD1",
+   122
+  ],
+  [
+   "DHDDS",
+   122
+  ],
+  [
+   "EEF2",
+   122
+  ],
+  [
+   "HSPA9",
+   122
+  ],
+  [
+   "ISCU",
+   122
+  ],
+  [
+   "PAFAH1B1",
+   122
+  ],
+  [
+   "POLA2",
+   122
+  ],
+  [
+   "POLD1",
+   122
+  ],
+  [
+   "POLD3",
+   122
+  ],
+  [
+   "POLE2",
+   122
+  ],
+  [
+   "RFC5",
+   122
+  ],
+  [
+   "RNMT",
+   122
+  ],
+  [
+   "RPN1",
+   122
+  ],
+  [
+   "UBA1",
+   122
+  ],
+  [
+   "ALG2",
+   121
+  ],
+  [
+   "ANAPC11",
+   121
+  ],
+  [
+   "ATP6V0B",
+   121
+  ],
+  [
+   "ATP6V1F",
+   121
+  ],
+  [
+   "DPAGT1",
+   121
+  ],
+  [
+   "DUT",
+   121
+  ],
+  [
+   "GAPDH",
+   121
+  ],
+  [
+   "GGPS1",
+   121
+  ],
+  [
+   "GUK1",
+   121
+  ],
+  [
+   "HMGCS1",
+   121
+  ],
+  [
+   "KAT8",
+   121
+  ]
+ ]
+}
