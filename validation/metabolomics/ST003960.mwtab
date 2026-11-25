@@ -1,0 +1,128 @@
+#METABOLOMICS WORKBENCH Kugan91_20250529_173921 DATATRACK_ID:5968 STUDY_ID:ST003960 ANALYSIS_ID:AN006508 PROJECT_ID:PR002482
+VERSION             	1
+CREATED_ON             	June 1, 2025, 5:31 pm
+#PROJECT
+PR:PROJECT_TITLE                 	Complex II assembly drives metabolic adaptation to OXPHOS dysfunction.
+PR:PROJECT_SUMMARY               	During acute oxidative phosphorylation (OXPHOS) dysfunction, the reverse
+PR:PROJECT_SUMMARY               	activity of succinate dehydrogenase (Complex II) maintains the redox state of
+PR:PROJECT_SUMMARY               	Coenzyme Q by utilizing either fumarate or oxygen as terminal electron
+PR:PROJECT_SUMMARY               	acceptors. The tendency for one over another has been suggested to be
+PR:PROJECT_SUMMARY               	tissue-specific, but the underlying mechanism and consequence of this is
+PR:PROJECT_SUMMARY               	unknown. Using quantitative proteomics to screen a panel of HEK293T knockout
+PR:PROJECT_SUMMARY               	cell lines, we identified an increase in SDHAF2 protein, a Complex II assembly
+PR:PROJECT_SUMMARY               	factor that enhances the flavination of catalytic subunit SDHA, as critical for
+PR:PROJECT_SUMMARY               	metabolic adaptation during OXPHOS stress in HEK293T cells. Loss of SDHAF2
+PR:PROJECT_SUMMARY               	during Complex III inhibition resulted in a reduction in Complex II F-site
+PR:PROJECT_SUMMARY               	derived reactive oxygen species (ROS), a severe growth impairment, and a net
+PR:PROJECT_SUMMARY               	reductive TCA cycle driven by an inability of mitochondria to support additional
+PR:PROJECT_SUMMARY               	Complex II assembly. This in turn leads to use of fumarate as terminal electron
+PR:PROJECT_SUMMARY               	acceptor at the cost of a ROS-mediated switch to glycolysis. Cell lines adapted
+PR:PROJECT_SUMMARY               	to glycolysis did not accumulate SDHAF2 upon OXPHOS stress and exhibited a net
+PR:PROJECT_SUMMARY               	reductive TCA cycle and mild growth phenotypes with or without SDHAF2 being
+PR:PROJECT_SUMMARY               	present. Thus, our study reveals how Complex II assembly controls a balance
+PR:PROJECT_SUMMARY               	between protection of the Q-pool and ROS-meditated signaling during oxidative
+PR:PROJECT_SUMMARY               	stress in cells reliant on mitochondrial OXPHOS.
+PR:INSTITUTE                     	University of Melbourne
+PR:LAST_NAME                     	Roopasingam
+PR:FIRST_NAME                    	Kugapreethan
+PR:ADDRESS                       	30 Flemington Rd, Bio21 Molecular Science and Biotechnology Institute,
+PR:ADDRESS                       	University of Melbourne, Parkville, VIC, Australia.
+PR:EMAIL                         	k.roopasingam@unimelb.edu.au
+PR:PHONE                         	0434297212
+#STUDY
+ST:STUDY_TITLE                   	Relative quantification of lactic acid secreted in media from cell lines treated
+ST:STUDY_TITLE                   	with or without Antimycin A.
+ST:STUDY_SUMMARY                 	This study aimed to investigate the lactate secretion as a measurement of
+ST:STUDY_SUMMARY                 	glycolytic switch in subjected cell lines during OXPHOS dysfunction using
+ST:STUDY_SUMMARY                 	targeted GC-MS analysis.
+ST:INSTITUTE                     	University of Melbourne
+ST:LAST_NAME                     	Roopasingam
+ST:FIRST_NAME                    	Kugapreethan
+ST:ADDRESS                       	30 Flemington Rd, Bio21 Molecular Science and Biotechnology Institute,
+ST:ADDRESS                       	University of Melbourne, Parkville, VIC, Australia.
+ST:EMAIL                         	k.roopasingam@unimelb.edu.au
+ST:PHONE                         	0434297212
+#SUBJECT
+SU:SUBJECT_TYPE                  	Cultured cells
+SU:SUBJECT_SPECIES               	Homo sapiens
+SU:TAXONOMY_ID                   	9606
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	-	1-1_Fresh Media	Sample source:1-1_Fresh Media_001 | Treatment:Control neg	RAW_FILE_NAME(Raw file name)=1-1_Fresh Media_UNK-0012_2052025_12.qgd
+SUBJECT_SAMPLE_FACTORS           	-	1-2_Fresh Media	Sample source:1-1_Fresh Media_002 | Treatment:Control neg	RAW_FILE_NAME(Raw file name)=1-2_Fresh Media_UNK-0031_2052025_31.qgd
+SUBJECT_SAMPLE_FACTORS           	-	1-3_Fresh Media	Sample source:1-1_Fresh Media_003 | Treatment:Control neg	RAW_FILE_NAME(Raw file name)=1-3_Fresh Media_UNK-0024_2052025_24.qgd
+SUBJECT_SAMPLE_FACTORS           	-	2-1_HEKWT	Sample source:2-1_HEKWT_001 | Treatment:Control	RAW_FILE_NAME(Raw file name)=2-1_HEKWT_UNK-0015_2052025_15.qgd
+SUBJECT_SAMPLE_FACTORS           	-	2-2_HEKWT	Sample source:2-1_HEKWT_002 | Treatment:Control	RAW_FILE_NAME(Raw file name)=2-2_HEKWT_UNK-0023_2052025_23.qgd
+SUBJECT_SAMPLE_FACTORS           	-	2-3_HEKWT	Sample source:2-1_HEKWT_003 | Treatment:Control	RAW_FILE_NAME(Raw file name)=2-3_HEKWT_UNK-0008_2052025_8.qgd
+SUBJECT_SAMPLE_FACTORS           	-	3-1_HEKWT_A-A	Sample source:3-1_HEKWT_A-A_001 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=3-1_HEKWT_A-A_UNK-0022_2052025_22.qgd
+SUBJECT_SAMPLE_FACTORS           	-	3-2_HEKWT_A-A	Sample source:3-1_HEKWT_A-A_002 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=3-2_HEKWT_A-A_UNK-0025_2052025_25.qgd
+SUBJECT_SAMPLE_FACTORS           	-	3-3_HEKWT_A-A	Sample source:3-1_HEKWT_A-A_003 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=3-3_HEKWT_A-A_UNK-0019_2052025_19.qgd
+SUBJECT_SAMPLE_FACTORS           	-	4-1_HEKSDHAF2_A-A	Sample source:4-1_HEKSDHAF2_A-A_001 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=4-1_HEKSDHAF2_A-A_UNK-0009_2052025_9.qgd
+SUBJECT_SAMPLE_FACTORS           	-	4-2_HEKSDHAF2_A-A	Sample source:4-1_HEKSDHAF2_A-A_002 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=4-2_HEKSDHAF2_A-A_UNK-0029_2052025_29.qgd
+SUBJECT_SAMPLE_FACTORS           	-	4-3_HEKSDHAF2_A-A	Sample source:4-1_HEKSDHAF2_A-A_003 | Treatment:Treatment	RAW_FILE_NAME(Raw file name)=4-3_HEKSDHAF2_A-A_UNK-0014_2052025_14.qgd
+#COLLECTION
+CO:COLLECTION_SUMMARY            	Cells were seeded at 50% confluency in 6-well dishes containing DMEM media
+CO:COLLECTION_SUMMARY            	(Thermo Scientific) 24 hours prior to the experiment. For metabolite extraction,
+CO:COLLECTION_SUMMARY            	50 ul of media was collected from wells with and without the cells.
+CO:SAMPLE_TYPE                   	Media
+#TREATMENT
+TR:TREATMENT_SUMMARY             	The drug treatment was performed for 8 hours prior to media collection and the
+TR:TREATMENT_SUMMARY             	collected media was snap-frozen before polar metabolite extraction.
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	A monophasic extraction protocol was used to extract lactic acid from the media.
+SP:SAMPLEPREP_SUMMARY            	To 30 µL of media, 90 µL of 100% MeOH containing 1.2 nmol of 13C515N valine
+SP:SAMPLEPREP_SUMMARY            	and 1.2 nmol of 13C6 sorbitol was added. Each sample was vortexed and then
+SP:SAMPLEPREP_SUMMARY            	incubated at 4˚C for 10 min with continuous agitation (12 g) using an Eppendorf
+SP:SAMPLEPREP_SUMMARY            	Thermomixer C. The samples were centrifuged at 4˚C for 10 min at 16000 g using
+SP:SAMPLEPREP_SUMMARY            	an Eppendorf centrifuge 5430 R. The supernatant was transferred into a fresh 1.5
+SP:SAMPLEPREP_SUMMARY            	mL Eppendorf tube and the precipitate was discarded. A 10 µL aliquot of each
+SP:SAMPLEPREP_SUMMARY            	sample was pooled to create the pooled biological quality control (PBQC). Ten
+SP:SAMPLEPREP_SUMMARY            	µL of each study sample and the PBQC were transferred into HPLC inserts and
+SP:SAMPLEPREP_SUMMARY            	evaporated at 30˚C to complete dryness, using a CHRIST RVC 2-33 CD plus speed
+SP:SAMPLEPREP_SUMMARY            	vacuum, prior to the GC-MS analysis.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_TYPE           	GC
+CH:INSTRUMENT_NAME               	Shimadzu GC-2010
+CH:COLUMN_NAME                   	30 m Agilent DB-5 column with a diameter of 0.25mm and a film thickness of 1µm
+CH:SOLVENT_A                     	N/A
+CH:SOLVENT_B                     	N/A
+CH:FLOW_GRADIENT                 	N/A
+CH:FLOW_RATE                     	1ml/min
+CH:COLUMN_TEMPERATURE            	100
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Shimadzu TQ8050NX
+MS:INSTRUMENT_TYPE               	Triple quadrupole
+MS:MS_TYPE                       	EI
+MS:ION_MODE                      	POSITIVE
+MS:MS_COMMENTS                   	The GC-MS system used comprised of an AOC6000 autosampler, a 2030 Shimadzu gas
+MS:MS_COMMENTS                   	chromatograph and a TQ8050NX triple quadrupole mass spectrometer (Shimadzu,
+MS:MS_COMMENTS                   	Japan)with an electron ionisation source(-70eV). The mass spectrometer was tuned
+MS:MS_COMMENTS                   	according to the manufacturer’s recommendations using
+MS:MS_COMMENTS                   	tris-(perfluorobutyl)-amine (CF43). GC-MS was performed on a 30m Agilent DB-5
+MS:MS_COMMENTS                   	column with 0.25mm internal diameter column and 1µm film thickness. The
+MS:MS_COMMENTS                   	injection temperature (inlet) was set at 280°C, the MS transfer line at 280°C
+MS:MS_COMMENTS                   	and the ion source adjusted to 200°C. Helium was used as the carrier gas at a
+MS:MS_COMMENTS                   	flow rate of 1 mL/min and argon gas was used in the collision cell to generate
+MS:MS_COMMENTS                   	the MRM product ion. The analysis of the derivatised samples was performed under
+MS:MS_COMMENTS                   	the following oven temperature program; 100°C start temperature, hold for 4
+MS:MS_COMMENTS                   	minutes, followed by a 10°C/min oven temperature ramp to 320°C with a
+MS:MS_COMMENTS                   	following final hold for 11 minutes.
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	Ratio of Relative abundance
+MS_METABOLITE_DATA_START
+Samples	1-1_Fresh Media	1-2_Fresh Media	1-3_Fresh Media	2-1_HEKWT	2-2_HEKWT	2-3_HEKWT	3-1_HEKWT_A-A	3-2_HEKWT_A-A	3-3_HEKWT_A-A	4-1_HEKSDHAF2_A-A	4-2_HEKSDHAF2_A-A	4-3_HEKSDHAF2_A-A
+Factors	Sample source:1-1_Fresh Media_001 | Treatment:Control neg	Sample source:1-1_Fresh Media_002 | Treatment:Control neg	Sample source:1-1_Fresh Media_003 | Treatment:Control neg	Sample source:2-1_HEKWT_001 | Treatment:Control	Sample source:2-1_HEKWT_002 | Treatment:Control	Sample source:2-1_HEKWT_003 | Treatment:Control	Sample source:3-1_HEKWT_A-A_001 | Treatment:Treatment	Sample source:3-1_HEKWT_A-A_002 | Treatment:Treatment	Sample source:3-1_HEKWT_A-A_003 | Treatment:Treatment	Sample source:4-1_HEKSDHAF2_A-A_001 | Treatment:Treatment	Sample source:4-1_HEKSDHAF2_A-A_002 | Treatment:Treatment	Sample source:4-1_HEKSDHAF2_A-A_003 | Treatment:Treatment
+Lactic acid	526142	540035	533392	2214946	1847120	1989117	2325905	2646966	2242141	1686453	1456046	1803902
+ISTD_Inositol	2210425	2152864	2271326	2429075	1987070	2166363	2129132	2369576	2165386	2468311	2106197	2515642
+Lactic acid/ISTD_Inositol ratio	0.238027529	0.250844921	0.234837271	0.911847514	0.929569668	0.918182687	1.092419352	1.117063137	1.035446336	0.683241698	0.6913152	0.71707421
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	HMDB ID
+Lactic acid	HMDB0000190
+ISTD_Inositol	HMDB0006088
+Lactic acid/ISTD_Inositol ratio	N/A
+METABOLITES_END
+#END
+

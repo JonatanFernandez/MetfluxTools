@@ -1,0 +1,173 @@
+#METABOLOMICS WORKBENCH ankita_pal_20220202_062900_mwtab.txt DATATRACK_ID:3059 STUDY_ID:ST002076 ANALYSIS_ID:AN003383 PROJECT_ID:PR001316
+VERSION             	1
+CREATED_ON             	February 2, 2022, 1:22 pm
+#PROJECT
+PR:PROJECT_TITLE                 	Metabolomic analysis of Escherichia coli K-12 MG1655 transcriptional regulator
+PR:PROJECT_TITLE                 	double mutants under anaerobic conditions
+PR:PROJECT_TYPE                  	Metabolomics
+PR:PROJECT_SUMMARY               	Metabolomic analysis of Wildtype, fnr_arcA (FA), arcA_ihf (AI) and fnr_ihf (FI)
+PR:PROJECT_SUMMARY               	mutants in glucose minimal media under anaerobic fermentation conditions during
+PR:PROJECT_SUMMARY               	its exponential phase of growth. Three biological and two technical replicates
+PR:PROJECT_SUMMARY               	samples (n=6) were harvested for each of the strains while growing in a
+PR:PROJECT_SUMMARY               	bioreactor anaerobically at 37 degrees Celsius and 150 rpm. This study aims to
+PR:PROJECT_SUMMARY               	characterize and compare the metabolic profiles of all these strains.
+PR:INSTITUTE                     	IIT Bombay
+PR:DEPARTMENT                    	Department of Chemical Engineering
+PR:LABORATORY                    	Systems Biology and Metabolic Engineering Laboratory
+PR:LAST_NAME                     	Pal
+PR:FIRST_NAME                    	Ankita
+PR:ADDRESS                       	Department of Chemical Engineering, IIT Bombay, Mumbai, Maharashtra, 400076,
+PR:ADDRESS                       	India
+PR:EMAIL                         	pal.ankita90@gmail.com
+PR:PHONE                         	08879536816
+#STUDY
+ST:STUDY_TITLE                   	Metabolomic study of Escherichia coli K-12 MG1655 WT and its transcriptional
+ST:STUDY_TITLE                   	regulator double mutants under anaerobic fermentation conditions
+ST:STUDY_TYPE                    	Metabolomics
+ST:STUDY_SUMMARY                 	Metabolomic analysis of Wildtype, fnr_arcA (FA), arcA_ihf (AI) and fnr_ihf (FI)
+ST:STUDY_SUMMARY                 	mutants in glucose minimal media under anaerobic fermentation conditions during
+ST:STUDY_SUMMARY                 	its exponential phase of growth. Three biological and two technical replicate
+ST:STUDY_SUMMARY                 	samples (n=6) were harvested for each of the strains while growing in a
+ST:STUDY_SUMMARY                 	bioreactor anaerobically at 37 degrees Celsius and 150 rpm. This study aims to
+ST:STUDY_SUMMARY                 	characterize and compare the metabolic profiles of all these strains.
+ST:INSTITUTE                     	IIT Bombay
+ST:DEPARTMENT                    	Department of Chemical Engineering
+ST:LABORATORY                    	Systems Biology and Metabolic Engineering Laboratory (SBMEL)
+ST:LAST_NAME                     	Pal
+ST:FIRST_NAME                    	Ankita
+ST:ADDRESS                       	Department of Chemical Engineering, IIT Bombay, Mumbai, Maharashtra, 400076,
+ST:ADDRESS                       	India
+ST:EMAIL                         	pal.ankita90@gmail.com
+ST:PHONE                         	08879536816
+#SUBJECT
+SU:SUBJECT_TYPE                  	Bacteria
+SU:SUBJECT_SPECIES               	Escherichia coli
+SU:TAXONOMY_ID                   	562
+SU:GENOTYPE_STRAIN               	K-12 MG1655
+#FACTORS
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	Wild-type_1	WT_1	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_1.RAW;WT_negative_1.RAW
+SUBJECT_SAMPLE_FACTORS           	Wild-type_2	WT_2	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_2.RAW;WT_negative_2.RAW
+SUBJECT_SAMPLE_FACTORS           	Wild-type_3	WT_3	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_3.RAW;WT_negative_3.RAW
+SUBJECT_SAMPLE_FACTORS           	Wild-type_4	WT_4	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_4.RAW;WT_negative_4.RAW
+SUBJECT_SAMPLE_FACTORS           	Wild-type_5	WT_5	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_5.RAW;WT_negative_5.RAW
+SUBJECT_SAMPLE_FACTORS           	Wild-type_6	WT_6	Genotype:Wildtype | KO Type:Wildtype	RAW_FILE_NAME=WT_positive_6.RAW;WT_negative_6.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_1	FA_1	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_1.RAW;FA_negative_1.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_2	FA_2	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_2.RAW;FA_negative_2.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_3	FA_3	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_3.RAW;FA_negative_3.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_4	FA_4	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_4.RAW;FA_negative_4.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_5	FA_5	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_5.RAW;FA_negative_5.RAW
+SUBJECT_SAMPLE_FACTORS           	FA-knockout_6	FA_6	Genotype:Mutant | KO Type:FA	RAW_FILE_NAME=FA_positive_6.RAW;FA_negative_6.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_1	AI_1	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_1.RAW;AI_negative_1.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_2	AI_2	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_2.RAW;AI_negative_2.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_3	AI_3	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_3.RAW;AI_negative_3.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_4	AI_4	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_4.RAW;AI_negative_4.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_5	AI_5	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_5.RAW;AI_negative_5.RAW
+SUBJECT_SAMPLE_FACTORS           	AI-knockout_6	AI_6	Genotype:Mutant | KO Type:AI	RAW_FILE_NAME=AI_positive_6.RAW;AI_negative_6.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_1	FI_1	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_1.RAW;FI_negative_1.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_2	FI_2	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_2.RAW;FI_negative_2.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_3	FI_3	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_3.RAW;FI_negative_3.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_4	FI_4	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_4.RAW;FI_negative_4.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_5	FI_5	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_5.RAW;FI_negative_5.RAW
+SUBJECT_SAMPLE_FACTORS           	FI-knockout_6	FI_6	Genotype:Mutant | KO Type:FI	RAW_FILE_NAME=FI_positive_6.RAW;FI_negative_6.RAW
+#COLLECTION
+CO:COLLECTION_SUMMARY            	The WT, FA, AI and FI mutants were grown in a bioreactor in glucose minimal
+CO:COLLECTION_SUMMARY            	media under anaerobic fermentation conditions at 37 degrees Celsius and 150 rpm.
+CO:COLLECTION_SUMMARY            	The samples were harvested during its exponential phase of growth for three
+CO:COLLECTION_SUMMARY            	biological and two technical replicates (n=6). The metabolites were extracted
+CO:COLLECTION_SUMMARY            	using the Methanol-Chloroform-Water method. Detailed sample collection protocol
+CO:COLLECTION_SUMMARY            	is described in “Extraction_protocol_msi.pdf”.
+CO:COLLECTION_PROTOCOL_FILENAME  	Extraction_protocol_msi.pdf
+CO:SAMPLE_TYPE                   	Bacterial cells
+CO:COLLECTION_METHOD             	Methanol-Chloroform-Water method
+CO:COLLECTION_LOCATION           	IIT Bombay, Powai, Mumbai- 400076, Mumbai, Maharashtra
+CO:STORAGE_CONDITIONS            	-80℃
+#TREATMENT
+TR:TREATMENT_SUMMARY             	The WT, FA, AI and FI mutants were grown in a bioreactor in glucose minimal
+TR:TREATMENT_SUMMARY             	media under anaerobic fermentation conditions at 37 degrees Celsius and 150 rpm.
+TR:TREATMENT_SUMMARY             	The samples were harvested during its exponential phase of growth for three
+TR:TREATMENT_SUMMARY             	biological and two technical replicates (n=6). The metabolites were extracted
+TR:TREATMENT_SUMMARY             	using the Methanol-Chloroform-Water method.
+TR:CELL_GROWTH_CONTAINER         	Bioreactor
+TR:CELL_MEDIA                    	M9 + Glucose
+TR:CELL_ENVIR_COND               	37 degrees Celsius, 150 rpm. anaerobic fermentation
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	Samples were extracted from the Wildtype, FA, AI and FI mutants grown in a
+SP:SAMPLEPREP_SUMMARY            	bioreactor anaerobically in glucose minimal media at 37 degrees Celsius and 150
+SP:SAMPLEPREP_SUMMARY            	rpm. The metabolites were extracted using the Methanol-Chloroform-Water method.
+SP:SAMPLEPREP_SUMMARY            	The samples were spiked with an equal volume of 13C-labelled internal standard
+SP:SAMPLEPREP_SUMMARY            	taken from the same batch at an earlier stage to prevent to account for losses
+SP:SAMPLEPREP_SUMMARY            	due to metabolite degradation and to enable robust quantification circumventing
+SP:SAMPLEPREP_SUMMARY            	the ion-suppression effects.
+SP:SAMPLEPREP_PROTOCOL_FILENAME  	Method_msi.pdf
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_SUMMARY        	The detailed chromatography and MS protocol has been described in
+CH:CHROMATOGRAPHY_SUMMARY        	"Method_msi.pdf" file.
+CH:CHROMATOGRAPHY_TYPE           	HILIC
+CH:INSTRUMENT_NAME               	Thermo Dionex Ultimate 3000
+CH:COLUMN_NAME                   	SeQuant ZIC- pHILIC (150 x 2.1mm, 5um)
+CH:METHODS_FILENAME              	Method_msi.pdf
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Thermo Q Exactive Plus Orbitrap
+MS:INSTRUMENT_TYPE               	Orbitrap
+MS:MS_TYPE                       	ESI
+MS:ION_MODE                      	POSITIVE
+MS:MS_COMMENTS                   	Data acquisition done using parent ion MS intensities. Peak height used for
+MS:MS_COMMENTS                   	processing. Xcalibur 4.3.73.11 used for data analysis and peak integration.
+MS:MS_COMMENTS                   	Missing value imputation was done using SVD impute function in MetaboAnalyst.
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	umol/gDCW and Height ratio/gDCW
+MS_METABOLITE_DATA_START
+Samples	WT_1	WT_2	WT_3	WT_4	WT_5	WT_6	FA_1	FA_2	FA_3	FA_4	FA_5	FA_6	FI_1	FI_2	FI_3	FI_4	FI_5	FI_6	AI_1	AI_2	AI_3	AI_4	AI_5	AI_6
+Factors	Genotype:Wildtype | KO Type:Wildtype	Genotype:Wildtype | KO Type:Wildtype	Genotype:Wildtype | KO Type:Wildtype	Genotype:Wildtype | KO Type:Wildtype	Genotype:Wildtype | KO Type:Wildtype	Genotype:Wildtype | KO Type:Wildtype	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FA	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:FI	Genotype:Mutant | KO Type:AI	Genotype:Mutant | KO Type:AI	Genotype:Mutant | KO Type:AI	Genotype:Mutant | KO Type:AI	Genotype:Mutant | KO Type:AI	Genotype:Mutant | KO Type:AI
+Leucine	4.339392777	4.071342108	4.596626868	4.595376637	5.52	5.18	1.334135164	1.142967846	1.651358914	1.327865207	1.182408213	1.660768564	13.13477172	9.708554001	7.844353096	13.34449652	9.981734138	8.064252229	8.033331143	6.387733342	4.327148457	6.326741784	7.97885782	4.382174085
+Phenylalanine	0.663109999	0.656541175	0.631053559	0.631705113	0.73	0.97	0.249103815	0.211276351	0.304333072	0.24610561	0.375756323	0.313151704	0.956369382	0.413428159	0.450790316	0.943536605	0.415352214	0.463092186	1.039098337	0.460916111	0.32387146	0.456135049	1.06090185	0.327080822
+Methionine	1.71898291	1.653582903	1.962846801	2.00167123	1.93	2.15	0.809105347	0.744985835	0.936326646	0.823942542	0.656912025	0.964997275	2.596011115	2.280334375	2.103459035	2.572091412	2.309892442	2.059355598	2.216351743	2.387191458	2.279863547	2.52827834	2.236288269	2.241145615
+Tryptophan	0.133562342	0.135524122	0.13148099	0.130893034	0.13	0.2	0.051499636	0.049692294	0.066156015	0.055456579	0.044874762	0.063890949	0.202518088	0.146312025	0.138886819	0.204197166	0.143898154	0.144802108	0.207042205	0.169314626	0.102786818	0.17051645	0.245702228	0.116702147
+Proline	0.596864506	0.584915861	1.104842009	1.0868342	1.27	0.88	0.400966594	0.261354198	0.582431191	0.398185198	0.251919237	0.592504798	1.736433064	1.588997552	1.376301542	1.746776693	1.552134071	1.398536279	1.339420586	1.502309697	1.133164846	1.448321534	1.391743901	1.080259513
+Valine	5.386763361	3.10520573	5.572423982	5.628870515	8.29	4.63	1.169024584	0.994124749	1.451451436	1.160306247	1.101671581	1.479356255	13.25549206	10.77838939	11.33446195	13.71297705	16.33583116	11.33608115	7.399753537	7.160023033	3.896128804	6.964498972	7.363162506	4.012660142
+Tyrosine	1.18408796	1.198604713	1.846440277	1.95226411	2.85	1.6	0.688484691	0.609683335	0.834538669	0.674679286	0.844092749	0.815284925	2.05756395	1.341043262	1.607711998	2.18447674	1.305745163	1.483789946	1.966238912	1.24833081	0.868799448	1.268291745	1.849540016	0.878637368
+Alanine	23.53978108	23.7608482	39.23017769	38.38480395	44.64	33.01	11.09705196	14.40442051	10.215565	11.33743009	32.006788	10.27019811	51.35264341	29.33835716	29.15341321	55.25011896	30.60755955	30.27611738	36.96062397	24.01924677	16.48727101	23.03208426	37.45738569	17.32539386
+Threonine	2.163773106	2.197844239	2.695540594	2.679859374	3.31	2.69	1.003416315	0.774235989	1.337012406	1.020482931	0.523302155	1.318657568	7.352846629	8.476907083	8.109597865	7.555817018	8.923354349	7.814753122	4.314708604	5.015911955	4.209758247	5.287019882	3.968316975	4.238999661
+Histidine	0.6430585	0.642164429	0.976755049	1.091947178	1.244768712	0.887764829	0.480039502	0.445725835	0.604561256	0.472007288	0.424618584	0.624710337	1.27	0.98	1.02	NA	NA	0.773012391	1.283088491	1.106460705	0.824720654	1.048230798	1.386763257	0.71822009
+Glutamine	0.463601549	0.436838633	1.580567461	1.56681558	2.83	0.68	1.198375254	0.531566011	1.946179442	1.123691571	0.4027878	1.932088688	4.123833534	5.219206702	2.256411571	4.500606506	5.491305112	2.263248441	3.839001618	5.426154434	4.986428622	5.289201944	3.805365794	5.100114458
+Glycine	8.471052718	8.242268544	8.885631666	9.200894163	9.36	11.86	5.672243972	6.134059287	5.808904945	5.449977698	6.243765901	5.944720401	12.60362145	10.13031634	9.944715887	11.99349803	11.45830145	10.15562456	9.587720086	9.134640886	7.61795928	9.183586026	9.774123118	8.030632387
+Serine	3.931485656	3.983659613	5.702612629	6.113026786	6.52247969	5.951601445	3.771216435	3.300305058	4.556059306	3.633197807	3.281372259	4.235544666	7.034895717	6.07731881	5.275624112	5.995693538	5.996232873	5.112533214	10.39618612	11.45672079	7.236180924	11.87117691	10.55521518	7.467889646
+Asparagine	0.080912663	0.08028805	1.084927517	0.872941862	1.272963641	0.076990564	0.596646647	0.519423728	0.702530706	0.600692996	0.365497949	0.583284478	1.051949844	1.413520058	0.759372982	1.187664172	1.42657615	0.917921429	3.032687323	0.945376282	0.696285242	0.963146153	3.026555421	0.668639426
+Glutamate	35.38984382	35.4371323	47.65926338	47.16255016	56.90088362	42.83083614	40.7892424	30.10862297	52.11396594	40.40062771	28.39434272	51.1250243	180.2213361	166.8578447	127.6251226	217.0593375	176.4325318	136.9200022	215.4303849	199.3880864	139.048606	190.0676802	221.0248281	134.7082602
+Aspartate	1.668348702	1.773337413	1.830172242	1.544621655	2.142711546	3.311893117	2.46995608	1.863674066	3.015723455	2.369954652	1.113196337	2.962233157	2.735995272	4.403985356	2.196360864	2.892779605	4.587577196	2.24477211	4.441363884	11.8722842	10.75836206	11.20449343	4.346266355	10.605516
+Lysine	15.17728428	15.61512655	15.987123	16.22565965	19.81823988	19.95298073	7.315249483	5.909528117	9.543245747	7.227878962	5.718945131	9.51607613	27.17537491	22.94924859	21.23205314	24.43770328	21.74872394	20.05510147	23.03475856	21.4520317	17.07263614	21.4625641	23.09324813	16.41024413
+Arginine	3.201064274	3.190855187	2.570239548	2.567657062	2.856752366	4.017516151	2.123937379	1.771744333	2.80122412	2.156409808	1.321718957	2.811148258	4.915660066	4.985660664	4.063997742	4.935120258	4.931470521	4.065967409	4.372042981	4.977456362	3.710968633	5.040338104	4.162525434	3.717987974
+NAD	14.50534375	14.33103254	14.97360937	14.64225697	15.23587052	16.65680255	7.38447865	6.767811734	9.359049145	7.332635571	6.639439134	9.409666066	18.75345166	17.02690229	17.60288283	19.64725485	17.53289881	18.15669169	16.93406411	17.26679837	15.03060162	17.3199791	17.03085487	15.31096649
+NADPH	0.523640271	0.492833858	0.625037778	0.651290537	0.797642476	0.739486511	0.369522508	0.322234406	0.45185508	0.370111796	0.10526293	0.452310503	0.691723737	0.550166881	0.594680257	NA	NA	NA	0.586918908	0.513756159	0.445295753	0.49843337	0.574081836	0.406857981
+GABA	0.040205062	0.0446408	0.045472766	0.030308431	0.030026763	0.036162541	0.091145917	0.08278234	0.120162407	0.091828658	0.092596741	0.11538322	0.784288432	0.514689284	0.482440582	0.806118323	0.508669526	0.45019188	0.374969422	0.206166245	0.143975601	0.205740282	0.380080982	0.149087161
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	m/z [M+H]+	KEGG-id
+Leucine	132.1019	C00123
+Phenylalanine	166.0862	C00079
+Methionine	150.0583	C00073
+Tryptophan	205.0971	C00078
+Proline	116.0706	C00148
+Valine	118.0862	C00183
+Tyrosine	182.0811	C00082
+Alanine	90.0549	C00041
+Threonine	120.0655	C00188
+Glutamine	147.0764	C00064
+Glycine	76.0393	C00037
+Aspartate	134.0447	C00049
+Asparagine	133.0607	C00152
+Serine	106.0498	C00065
+Glutamate	148.0604	C00025
+Lysine	147.1128	C00047
+Arginine	175.1189	C00062
+Histidine	156.0767	C00135
+NAD	664.1163	C00003
+NADPH	746.0983	C00005
+GABA	104.0706	C00334
+METABOLITES_END
+#END
+

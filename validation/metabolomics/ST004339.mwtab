@@ -1,0 +1,251 @@
+#METABOLOMICS WORKBENCH EmilyAnnD28_20251106_142940 DATATRACK_ID:6633 STUDY_ID:ST004339 ANALYSIS_ID:AN007246 PROJECT_ID:PR002751
+VERSION             	1
+CREATED_ON             	November 11, 2025, 9:51 am
+#PROJECT
+PR:PROJECT_TITLE                 	Glutathione-deficiency promotes basal hyperinsulinemia in the insulin secreting
+PR:PROJECT_TITLE                 	cell line INS-1 (832/13)
+PR:PROJECT_SUMMARY               	This study sought to determine the impact of Glutathione (GSH) synthesis on
+PR:PROJECT_SUMMARY               	β-cell function. Glutamate-cysteine ligase catalytic subunit (Gclc) is
+PR:PROJECT_SUMMARY               	essential for GSH synthesis. To induce GSH deficiency, GCLC was inhibited in
+PR:PROJECT_SUMMARY               	INS-1 (832/13) cells using buthionine sulfoximine (BSO). The 24-hour treatment
+PR:PROJECT_SUMMARY               	of INS-1 cells with BSO (250 µM) reduced GSH levels to 33% of untreated,
+PR:PROJECT_SUMMARY               	however, glucose-stimulated insulin secretion was unchanged. The 24-hour
+PR:PROJECT_SUMMARY               	treatment of INS-1 cells with BME-free medium containing BSO further reduced GSH
+PR:PROJECT_SUMMARY               	levels to 9% of untreated and elicited significantly higher basal insulin
+PR:PROJECT_SUMMARY               	secretion. We sought to determine if higher basal insulin secretion was related
+PR:PROJECT_SUMMARY               	to metabolic alteration therefore, we performed a metabolomics screen. This data
+PR:PROJECT_SUMMARY               	is presented here. Out of 53 identified metabolites, we found 6 with
+PR:PROJECT_SUMMARY               	significantly lower abundance in -BME+BSO as compared to -BME. Those include,
+PR:PROJECT_SUMMARY               	adenosine monophosphate, deoxycytidine monophosphate, glucose 1-phosphate,
+PR:PROJECT_SUMMARY               	ADP-glucose, thymidine monophostphase, and deoxycytidine diphosphate.
+PR:INSTITUTE                     	Yale University
+PR:LAST_NAME                     	Davidson
+PR:FIRST_NAME                    	Emily
+PR:ADDRESS                       	300 Cedar St, S110, New Haven, CT 06510
+PR:EMAIL                         	emily.davidson@yale.edu
+PR:PHONE                         	8104797570
+#STUDY
+ST:STUDY_TITLE                   	Glutathione-deficiency promotes basal hyperinsulinemia in the insulin secreting
+ST:STUDY_TITLE                   	cell line INS-1 (832/13)
+ST:STUDY_SUMMARY                 	This study sought to determine the impact of Glutathione (GSH) synthesis on
+ST:STUDY_SUMMARY                 	β-cell function. Glutamate-cysteine ligase catalytic subunit (Gclc) is
+ST:STUDY_SUMMARY                 	essential for GSH synthesis. To induce GSH deficiency, GCLC was inhibited in
+ST:STUDY_SUMMARY                 	INS-1 (832/13) cells using buthionine sulfoximine (BSO). The 24-hour treatment
+ST:STUDY_SUMMARY                 	of INS-1 cells with BSO (250 µM) reduced GSH levels to 33% of untreated,
+ST:STUDY_SUMMARY                 	however, glucose-stimulated insulin secretion was unchanged. The 24-hour
+ST:STUDY_SUMMARY                 	treatment of INS-1 cells with BME-free medium containing BSO further reduced GSH
+ST:STUDY_SUMMARY                 	levels to 9% of untreated and elicited significantly higher basal insulin
+ST:STUDY_SUMMARY                 	secretion. We sought to determine if higher basal insulin secretion was related
+ST:STUDY_SUMMARY                 	to metabolic alteration therefore, we performed a metabolomics screen. This data
+ST:STUDY_SUMMARY                 	is presented here. Out of 53 identified metabolites, we found 6 with
+ST:STUDY_SUMMARY                 	significantly lower abundance in -BME+BSO as compared to -BME. Those include,
+ST:STUDY_SUMMARY                 	adenosine monophosphate, deoxycytidine monophosphate, glucose 1-phosphate,
+ST:STUDY_SUMMARY                 	ADP-glucose, thymidine monophostphase, and deoxycytidine diphosphate.
+ST:INSTITUTE                     	Yale University
+ST:LAST_NAME                     	Davidson
+ST:FIRST_NAME                    	Emily
+ST:ADDRESS                       	300 Cedar St, S110, New Haven, CT 06510
+ST:EMAIL                         	emily.davidson@yale.edu
+ST:PHONE                         	8104797570
+ST:NUM_GROUPS                    	2
+#SUBJECT
+SU:SUBJECT_TYPE                  	Cultured cells
+SU:SUBJECT_SPECIES               	Rattus norvegicus
+SU:TAXONOMY_ID                   	10116
+SU:CELL_BIOSOURCE_OR_SUPPLIER    	Millipore Sigma
+SU:CELL_STRAIN_DETAILS           	INS-1 832/13
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	-	b_1	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:12	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_b_1.mzML
+SUBJECT_SAMPLE_FACTORS           	-	b_2	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:5	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_b_2.mzML
+SUBJECT_SAMPLE_FACTORS           	-	b_3	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:13	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_b_3.mzML
+SUBJECT_SAMPLE_FACTORS           	-	b_4	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:14	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_b_4.mzML
+SUBJECT_SAMPLE_FACTORS           	-	b_5	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:6	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_b_5.mzML
+SUBJECT_SAMPLE_FACTORS           	-	bb_6	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:11	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_bb_6.mzML
+SUBJECT_SAMPLE_FACTORS           	-	bb_7	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:10	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_bb_7.mzML
+SUBJECT_SAMPLE_FACTORS           	-	bb_8	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:4	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_bb_8.mzML
+SUBJECT_SAMPLE_FACTORS           	-	bb_9	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:7	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_bb_9.mzML
+SUBJECT_SAMPLE_FACTORS           	-	bb_10	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:3	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_bb_10.mzML
+SUBJECT_SAMPLE_FACTORS           	-	eb_1	Treatment:extraction blank | Sample source:media | Injection order:1	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_eb_1.mzML
+SUBJECT_SAMPLE_FACTORS           	-	eb_2	Treatment:extraction blank | Sample source:media | Injection order:9	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_eb_2.mzML
+SUBJECT_SAMPLE_FACTORS           	-	eb_3	Treatment:extraction blank | Sample source:media | Injection order:16	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_eb_3.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_1	Treatment:quality control | Sample source:INS-1 cells | Injection order:2	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_1.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_2	Treatment:quality control | Sample source:INS-1 cells | Injection order:8	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_2.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_3	Treatment:quality control | Sample source:INS-1 cells | Injection order:15	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_3.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_10_20ev	Treatment:MSe | Sample source:INS-1 cells | Injection order:17	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_10_20ev.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_10_30ev	Treatment:MSe | Sample source:INS-1 cells | Injection order:18	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_10_30ev.mzML
+SUBJECT_SAMPLE_FACTORS           	-	QC_20_40ev	Treatment:MSe | Sample source:INS-1 cells | Injection order:19	RAW_FILE_NAME(Raw file name)=02222023_HILIC_TOFMS_NEG_QC_20_40ev.mzML
+#COLLECTION
+CO:COLLECTION_SUMMARY            	INS-1 (832/13) cells (#SCC207, Sigma-Aldrich) were cultured as monolayers in
+CO:COLLECTION_SUMMARY            	RPMI 1640 medium (#11875, Gibco™) supplemented with 10% (v/v) fetal bovine
+CO:COLLECTION_SUMMARY            	serum (#16140-071, Gibco™), antibiotics (10,000 units/mL penicillin and 10
+CO:COLLECTION_SUMMARY            	mg/mL streptomycin) (#15140122, Gibco™), 10mM HEPES (#15630-080, Gibco™), 2
+CO:COLLECTION_SUMMARY            	mM L-glutamine (#35050-061, Gibco™), 1 mM sodium pyruvate (#11360-070,
+CO:COLLECTION_SUMMARY            	Gibco™), and 50 µM β-mercaptoethanol (BME) (#M6250, Sigma-Aldrich).
+CO:SAMPLE_TYPE                   	INS-1 cells
+#TREATMENT
+TR:TREATMENT_SUMMARY             	INS-1 cells (~2.5 million cells per dish) were seeded into 100 mm tissue
+TR:TREATMENT_SUMMARY             	culture-treated dishes (#0877222, Corning). After overnight incubation, +BME
+TR:TREATMENT_SUMMARY             	medium was aspirated and replaced with 10 mL of experimental medium (-BME or
+TR:TREATMENT_SUMMARY             	-BME+BSO medium) for 24 hours. Prior to metabolite extraction, treated cells
+TR:TREATMENT_SUMMARY             	underwent a glucose-stimulated insulin secretion assay (2.5mM glucose).
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	For extraction, cells were washed 2x with 1 mL cold DBPS to remove culture
+SP:SAMPLEPREP_SUMMARY            	medium and scrapped from the dish in 1 mL ice-cold acetonitrile:methanol:water
+SP:SAMPLEPREP_SUMMARY            	(2:2:1 %v/v/v) and transferred to 1.5 mL centrifuge tubes. Cells were lysed
+SP:SAMPLEPREP_SUMMARY            	through three snap-freeze thaw cycles, following centrifugation at 15,000 RPM
+SP:SAMPLEPREP_SUMMARY            	for 10 minutes at 4ºC. The supernatants containing soluble metabolites were
+SP:SAMPLEPREP_SUMMARY            	transferred to clean 1.5 mL centrifuge tubes and evaporated in a vacuum
+SP:SAMPLEPREP_SUMMARY            	concentrator (SPD111V#, Savant) The remaining pellets were processed for total
+SP:SAMPLEPREP_SUMMARY            	protein quantification using the Pierce BCA Protein Assay Kit (Thermo Fisher
+SP:SAMPLEPREP_SUMMARY            	Scientific). Dry extracts were reconstituted in 100 μL acetonitrile:water (1:1,
+SP:SAMPLEPREP_SUMMARY            	%v/v) containing 10 μL of IROA Internal Standard U-13C, 95% (IROA® TrueQuant
+SP:SAMPLEPREP_SUMMARY            	IQQ Kit, IROA Technologies™) and centrifuged (10,000 RPM) for 10 minutes at
+SP:SAMPLEPREP_SUMMARY            	4°C (to remove insoluble debris). One hundred μL of the supernatant was
+SP:SAMPLEPREP_SUMMARY            	transferred into liquid chromatography-mass spectrometry vials (TrueView LC–MS
+SP:SAMPLEPREP_SUMMARY            	Certified, Waters Corporation) for liquid chromatography-mass spectrometry
+SP:SAMPLEPREP_SUMMARY            	analysis. Quality Control (QC) samples: 80 μL of the sample supernatant was
+SP:SAMPLEPREP_SUMMARY            	removed before the evaporation step. The aliquots were all pooled, sample volume
+SP:SAMPLEPREP_SUMMARY            	matched, and aliquots were evaporated to dryness, stored, and reconstituted as
+SP:SAMPLEPREP_SUMMARY            	described above.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_TYPE           	HILIC
+CH:INSTRUMENT_NAME               	Waters Acquity I-Class
+CH:COLUMN_NAME                   	Waters ACQUITY UPLC BEH Amide (100 x 2.1mm,1.7um)
+CH:SOLVENT_A                     	100% water; 25 mM ammonium hydroxide; 25 mM ammonium acetate
+CH:SOLVENT_B                     	100% acetonitrile
+CH:FLOW_GRADIENT                 	95% B (0–0.5 min), 95%-65% B (0.5–7 min), 65–40% B (7–8 min), 40% B
+CH:FLOW_GRADIENT                 	(8–9 min), 40–95% B (9–9.1 min) and continuing at 95% B (9.1–12.0 min)
+CH:FLOW_RATE                     	0.5mL/min
+CH:COLUMN_TEMPERATURE            	30
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Waters Xevo-G2-XS
+MS:INSTRUMENT_TYPE               	QTOF
+MS:MS_TYPE                       	ESI
+MS:ION_MODE                      	NEGATIVE
+MS:MS_COMMENTS                   	Q-ToF–MS scan data (300 ms/scan; mass scan range 50–1200 Da) were first
+MS:MS_COMMENTS                   	acquired for each sample. Thereafter, MSe fragmentation data were acquired for
+MS:MS_COMMENTS                   	metabolite identification (low energy scan: 200 ms/scan, collision energy 6 eV;
+MS:MS_COMMENTS                   	high energy scan: 100 ms/scan, collision energy 10, 20, 30 and 40 eV, mass scan
+MS:MS_COMMENTS                   	range 25–1000 Da). ESI source parameters were as follows: 1.8 kV capillary
+MS:MS_COMMENTS                   	voltage, 40 V sampling cone, 50°C source temperature, 420°C desolvation
+MS:MS_COMMENTS                   	temperature, 80 L/hr cone gas flow, 850 L/hr desolvation gas flow
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	abundance
+MS_METABOLITE_DATA_START
+Samples	b_1	b_2	b_3	b_4	b_5	bb_6	bb_7	bb_8	bb_9	bb_10
+Factors	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:12	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:5	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:13	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:14	Treatment:BME-free (control) | Sample source:INS-1 cells | Injection order:6	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:11	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:10	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:4	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:7	Treatment:BME-free (BSO) | Sample source:INS-1 cells | Injection order:3
+3-HYDROXYMETHYLGLUTARATE	21519	27296	26568	27419	29217	24832	31906	29286	12485	22260
+ADENINE	11862957	14453043	13594314	14893820	14104755	12030736	12512691	13784672	13908227	9735426
+ADENOSINE 3',5'-DIPHOSPHATE	2891053	3734248	3541462	3359897	4179661	3342708	2708154	3512273	1860625	2744545
+ADENOSINE DIPHOSPHATE RIBOSE	697261.6667	835315.6667	805032.6667	768669.6667	843472.6667	773736.6667	553690.6667	776115.6667	286738.6667	618671.6667
+ADENOSINE-MONOPHOSPHATE	834555	1164977	1023030	1195363	1164940	605828	713617	690248	487681	354739
+ADP-GLUCOSE	528558.6667	555470.6667	533751.6667	513326.6667	573568.6667	452472.6667	399315.6667	416016.6667	277514.6667	427475.6667
+ALLOTHREONINE	51981.66667	618787.6667	216834.6667	385704.6667	613593.6667	118170.6667	315672.6667	393862.6667	164822.6667	141094.6667
+AMINOISOBUTANOATE	22570.66667	26319.66667	23694.66667	23634.66667	27299.66667	21845.66667	21340.66667	22273.66667	17312.66667	23100.66667
+ANILINE-2-SULFONATE	3138.666667	7408.666667	3686.666667	-1632.333333	3421.666667	3276.666667	-1632.333333	5775.666667	18899.66667	5605.666667
+ANSERINE	6564	6804	6499	6561	6657	7110	6283	7946	7737	7896
+ASPARAGINE	56439.66667	53092.66667	52906.66667	51980.66667	68475.66667	55230.66667	53039.66667	49641.66667	43085.66667	57475.66667
+ASPARTATE	7965653.667	7785234.667	8106260.667	7664897.667	8202651.667	8256721.667	7606978.667	8179519.667	6516387.667	7705730.667
+BETA-GLYCEROPHOSPHATE	14290	20166	15586	23175	23728	15613	15559	19170	15207	11455
+CARNOSINE	34466.66667	36788.66667	35122.66667	32431.66667	37874.66667	40890.66667	34732.66667	37431.66667	32388.66667	44200.66667
+CDP-ETHANOLAMINE	53869	48779	61318	45048	50808	61901	58169	50700	28897	79299
+CITICOLINE	39915	26731	26372	33320	37086	34733	38416	29137	25890	30936
+CREATININE	16879.33333	17240.33333	15809.33333	14715.33333	20343.33333	15002.33333	22342.33333	16013.33333	17984.33333	18534.33333
+CYCLIC AMP	38963	46592	40611	42281	49799	37726	40801	42261	29182	38241
+DEOXYADENOSINE TRIPHOSPHATE	84251	100454	93897	90853	102690	90358	69619	83200	47036	77167
+DEOXYCYTIDINE MONOPHOSPHATE	40765	47749	43780	49848	52310	36710	35304	40844	28382	30167
+DEOXYCYTIDINE-DIPHOSPHATE	15332	18182	17717	18112	17980	14581	14920	15089	13005	15571
+DIAMINOPIMELATE	13520	13977	13393	13354	13872	14477	16742	16648	13577	15197
+DIHYDROOROTATE	11151	13676	12416	13627	13352	12659	11642	15319	9952	14062
+DTDP-D-GLUCOSE	133829	158879	148453	157259	171048	228855	204220	229671	140274	201552
+GAMMA-AMINOBUTYRATE	1606513.667	1728766.667	1652924.667	1535247.667	1868591.667	2020345.667	1858378.667	1859575.667	1528603.667	1968915.667
+GLUCONATE	6080124	7570004	6466901	6364903	7740268	6581459	5973934	6243586	4131240	6545116
+GLUCOSE 1-PHOSPHATE	605230	793362	623359	848126	733011	526328	568471	629322	406000	425766
+GLUCOSE 6-PHOSPHATE	306105	291904	284636	286458	233837	279512	263259	258931	207831	304836
+GLUTAMATE	9213124	10005486	9062302	9459782	10170021	9595174	10371997	9622641	9640089	9933829
+GUANIDINOSUCCINATE	15944.66667	33474.66667	22756.66667	24500.66667	30984.66667	16829.66667	23348.66667	21715.66667	25334.66667	13166.66667
+INOSINE	639324	747082	756027	693458	683157	1206416	1142097	920582	509348	1444218
+INOSINE MONOPHOSPHATE	171215	173532	152577	169478	201971	161603	168860	156442	118153	143459
+ITACONATE	21087	23637	21649	21151	24197	23045	21928	22869	15776	22424
+L-ALANINE	58637.66667	74177.66667	68008.66667	69689.66667	68994.66667	68280.66667	65826.66667	76080.66667	47316.66667	63401.66667
+MALATE	5162295	5098454	4866691	5040710	5649713	5150479	5023889	5043458	3917105	4812898
+N-ACETYLASPARTATE	199268.6667	590444.6667	272605.6667	300929.6667	357721.6667	195292.6667	277387.6667	272826.6667	283028.6667	178255.6667
+N-ACETYLNEURAMINATE	260211.3333	288903.3333	245371.3333	252490.3333	365359.3333	261531.3333	226822.3333	220039.3333	186795.3333	260141.3333
+N-ACETYLSERINE	1643.666667	1746.666667	-1094.333333	-3304.333333	8044.666667	6762.666667	4658.666667	-2502.333333	-1016.333333	7775.666667
+NADP	17959.66667	21497.66667	24140.66667	23239.66667	22795.66667	23367.66667	18794.66667	21685.66667	10713.66667	19679.66667
+O-PHOSPHOETHANOLAMINE	365070	412529	379446	390026	465491	413454	388667	416084	257256	349239
+O-SUCCINYL-HOMOSERINE	301954	339647	344624	301163	315400	319195	428891	370619	163027	256823
+PHOSPHOCREATINE	131003	116292	91413	106932	159558	114005	127394	99766	117377	110152
+PTERIN	10090022	8786212	9223210	8064260	10198311	7998900	8046634	6778193	5989587	8419066
+PURINE	665695	565916	618631	548464	615184	544584	482890	484138	385897	546116
+PYROGLUTAMATE	1315384.667	1501706.667	1530050.667	1468869.667	1587609.667	1164509.667	1736643.667	1837856.667	1527590.667	1367877.667
+QUINOLINATE	2716058.333	3427379.333	2987218.333	3670288.333	3924821.333	2431747.333	2865468.333	2949072.333	2940364.333	1935967.333
+SALICYLATE	202684.6667	93146.66667	255959.6667	154416.6667	50537.66667	57837.66667	196726.6667	113472.6667	94550.66667	168423.6667
+SUCCINATE	83850.66667	100484.6667	81267.66667	74120.66667	104513.6667	112478.6667	113967.6667	115649.6667	91650.66667	131532.6667
+TAURINE	9853016.333	10675983.33	9682496.333	9515133.333	10545180.33	9551921.333	9199373.333	9183765.333	8330798.333	9174591.333
+THYMIDINE-MONOPHOSPHATE	18687	21578	21236	21739	22330	17897	18016	17410	13649	14672
+TRANS-4-HYDROXY-L-PROLINE	9000	10341	8674	11582	13667	9297	13308	13577	7836	10390
+URATE	127843	223129	146001	205973	235486	127572	152496	161591	170018	102521
+URIDINE MONOPHOSPHATE	4218697.333	5858315.333	4874185.333	5005789.333	5596365.333	4195187.333	4979504.333	4889106.333	3785228.333	4107880.333
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	m/z	retention time (min)
+3-HYDROXYMETHYLGLUTARATE	161.045547	6.02
+ADENINE	134.0472187	2.68
+ADENOSINE 3',5'-DIPHOSPHATE	426.0221385	8.12
+ADENOSINE DIPHOSPHATE RIBOSE	558.0643972	6.78
+ADENOSINE-MONOPHOSPHATE	346.055808	6.88
+ADP-GLUCOSE	588.0749619	6.99
+ALLOTHREONINE	118.0509667	5.63
+AMINOISOBUTANOATE	102.0560521	5.35
+ANILINE-2-SULFONATE	172.0073876	0.94
+ANSERINE	239.1149639	6.63
+ASPARAGINE	131.0462157	6.02
+ASPARTATE	132.0302313	6.57
+BETA-GLYCEROPHOSPHATE	171.0063982	6.63
+CARNOSINE	225.0993139	6.71
+CDP-ETHANOLAMINE	445.0531043	7.16
+CITICOLINE	487.1000545	7.3
+CREATININE	112.0516354	2.73
+CYCLIC AMP	328.0452433	4.6
+DEOXYADENOSINE TRIPHOSPHATE	489.9935544	8.06
+DEOXYCYTIDINE MONOPHOSPHATE	306.04966	7.12
+DEOXYCYTIDINE-DIPHOSPHATE	386.0159905	7.83
+DIAMINOPIMELATE	189.0880805	7.61
+DIHYDROOROTATE	157.0254802	4.71
+DTDP-D-GLUCOSE	563.0684796	6.82
+GAMMA-AMINOBUTYRATE	102.0560521	5.91
+GLUCONATE	195.0510263	6
+GLUCOSE 1-PHOSPHATE	259.0224422	7.3
+GLUCOSE 6-PHOSPHATE	259.0224422	7.68
+GLUTAMATE	146.0458813	6.41
+GUANIDINOSUCCINATE	174.0520293	6.46
+INOSINE	267.073493	3.44
+INOSINE MONOPHOSPHATE	347.0398236	7.26
+ITACONATE	129.0193322	5.61
+L-ALANINE	88.04040201	5.5
+MALATE	133.0142468	6.54
+N-ACETYLASPARTATE	174.0407959	6.36
+N-ACETYLNEURAMINATE	308.0987047	6.02
+N-ACETYLSERINE	146.0458813	4.73
+NADP	742.0681759	7.95
+O-PHOSPHOETHANOLAMINE	140.0118179	7.45
+O-SUCCINYL-HOMOSERINE	218.0670107	6.23
+PHOSPHOCREATINE	210.0285306	7.16
+PTERIN	162.0421333	2.8
+PURINE	119.0363197	1.92
+PYROGLUTAMATE	128.0353166	4.81
+QUINOLINATE	166.0145812	6.3
+SALICYLATE	137.0244176	0.61
+SUCCINATE	117.0193322	6.31
+TAURINE	124.0073876	4.71
+THYMIDINE-MONOPHOSPHATE	321.0493256	6.53
+TRANS-4-HYDROXY-L-PROLINE	130.0509667	5.48
+URATE	167.0210635	5.33
+URIDINE MONOPHOSPHATE	323.0285902	7.12
+METABOLITES_END
+#END
+

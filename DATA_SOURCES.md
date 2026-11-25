@@ -128,6 +128,37 @@ RXNMapper (Schwaller et al., *Sci. Adv.* 2021, https://github.com/rxn4chemistry/
 | `tools/validation/crown2015_mmc5.xlsx` | 27 kB | `d6fd75bc0c0e60343ecbe93a6aa83a3d57ffe4694026536ccdc22fe8e164fa92` |
 | `tools/validation/fujiwara2025_mmc1.xlsx` | 57 kB | `ed2643f5ae93ab85020033d49f57b5bda9c95c8034fc059bafdce98a25afdbf3` |
 
+### Intracellular metabolomics (HEK293 producer vs non-producer)
+
+| File | Source | Used by |
+|---|---|---|
+| `tools/validation/dietmair2012_intracellular.json` | Table S3 of Dietmair et al., *PLoS ONE* 7:e43394 (2012), doi 10.1371/journal.pone.0043394, file `pone.0043394.s003.xlsx`, CC BY 4.0. The whole supplement is one zip at `https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3427347/supplementaryFiles`; only this sheet is used | `validation/metabolomics_dietmair.mjs`, through `prepare_dietmair.py` |
+
+52 metabolites of central metabolism, relative intracellular concentrations, two cell lines x 4 time points,
+mean ± standard error. The xlsx itself is **not kept**: `prepare_dietmair.py` turns it into the JSON above.
+The same paper's Table 2 is the `hek293` measured exchange set in `js/core/measured.js`, so the exometabolome
+and the intracellular metabolome of one experiment are both in the repository.
+
+### Metabolomics studies for the worked examples
+
+`tools/validation/fetch_metabolomics.sh` downloads five studies from the
+[Metabolomics Workbench](https://www.metabolomicsworkbench.org) REST API (NIH Common Fund) into
+`tools/validation/metabolomics/`, as mwTab text files that carry the metabolite table, the sample factors
+and the units together. `tools/validation/metabolomics_catalogue.json` describes each one and why it was
+chosen. The files are **not kept** in the repository, and each study has its own DOI and terms: check them
+before redistributing any of the data.
+
+| Study | Analysis | Organism | Metabolites | Samples | Units | Design |
+|---|---|---|---|---|---|---|
+| ST002076 | AN003383 | *E. coli* K-12 MG1655 | 22 | 24 | **µmol/gDCW** | wild type and three regulator knockouts, anaerobic |
+| ST004848 | AN008205 | *M. musculus* MPC11 | 118 | 90 | AU | control vs methionine restriction, 3 time points |
+| ST004339 | AN007246 | *R. norvegicus* INS-1 | 53 | 19 | abundance | buthionine sulfoximine (inhibits GCLC) vs control |
+| ST001609 | AN002643 | *S. cerevisiae* BY4742 | 1 | 26 | **mM** | wild type vs *mtl1Δ*, with OD600 per culture |
+| ST003960 | AN006508 | *H. sapiens* HEK293 | 2 | 12 | ratio | spent medium: fresh, WT, WT + antimycin A, SDHAF2 + antimycin A |
+
+The REST path that works is `/rest/study/analysis_id/<AN>/mwtab/txt`; the `/datatable` endpoint named in the
+API documentation answers 200 with "This function does not exist".
+
 ### Yeast benchmarks
 
 `tools/validation/yeast/` holds the files that yeast-GEM 9.1.1 uses for its own release tests, copied unchanged from
@@ -170,6 +201,32 @@ The first screen, on 122 lines, used **26Q1** instead: `gene_effect.csv` from th
 `DR DepMap` cross-references of Cellosaurus. That file was not kept, and the one-off script that made
 `tools/validation/depmap/depmap26q1_metabolic.json` was not saved (its first lines are in the session log). The 26Q1 file
 is only needed to reproduce the 122-line subset, not the 730-line run.
+
+## 6b. Signed regulatory networks (`tools/build_regulons.mjs`)
+
+Downloaded on **24 November** and cached under `tools/cache/regulons/`. The build script keeps the cache, so a rerun does
+not download again; delete a cached file to refresh it.
+
+**CollecTRI for human and mouse**, through the OmniPath web service (Muller-Dott *et al.*, *NAR* 2023; Turei *et al.*).
+CollecTRI is **CC BY-SA 4.0**, which is why the human and mouse regulon files are distributed under that licence.
+
+| File | Query | SHA-256 |
+|---|---|---|
+| `collectri_9606.tsv` | `https://omnipathdb.org/interactions?datasets=collectri&organisms=9606&genesymbols=yes&fields=sources` | `67e89b12ab66b59acbcd4dc3c10d7fb7045a2fce17f85d3a8fceaa51dab984ec` |
+| `collectri_10090.tsv` | the same with `organisms=10090` | `c7873e461a92da93c9946d5539b83b40dd88e0e1cbd00321ec939383d6719932` |
+
+**RegulonDB v14.5.1 for *E. coli*** (CCG-UNAM, Salgado *et al.* 2024), through the GraphQL endpoint at
+`https://regulondb.ccg.unam.mx/graphql`, dataset `NetworkRegulatorGene`. Its plain download URLs no longer resolve; the
+GraphQL service is the working route. **Its licence is academic / non-commercial**, which is narrower than everything else
+here, so the *E. coli* regulon file cannot be redistributed commercially. This is stated in the paper.
+
+| File | SHA-256 |
+|---|---|
+| `regulondb_NetworkRegulatorGene.tsv` | `99b2477bcc8cb11e8d5b9a7fd9e16f33d93311c5dbdabaa07d304652259e3483` |
+
+The build keeps only edges whose target is a metabolic gene of the corresponding model and whose sign is unambiguous;
+edges annotated as both activating and repressing are discarded. The result is `data/<slug>/regulons.json`
+(human 917 TFs / 1,327 metabolic genes; mouse 838 / 1,069; *E. coli* 239 / 1,129), used by `js/core/reginfer.js`.
 
 ## 7. Values taken from papers into the application (the files are not kept)
 

@@ -1,0 +1,336 @@
+[
+  {
+    "case": "Glycolysis vs oxPPP (Mode B PGD/MAR04474; Lee 1998)",
+    "fvaRange": [
+      0,
+      0.2716
+    ],
+    "targetTracer": "glc_12",
+    "rank12": 1,
+    "rank1": 3,
+    "nTracers": 6,
+    "top5": [
+      {
+        "id": "glc_12",
+        "name": "[1,2-13C2]glucose",
+        "met": "glucose",
+        "total": 355.5,
+        "top3": [
+          {
+            "met": "citrate",
+            "sep": 121.4
+          },
+          {
+            "met": "aspartate",
+            "sep": 118.6
+          },
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 115.6
+          }
+        ]
+      },
+      {
+        "id": "glc_u",
+        "name": "[U-13C6]glucose",
+        "met": "glucose",
+        "total": 352.3,
+        "top3": [
+          {
+            "met": "citrate",
+            "sep": 118
+          },
+          {
+            "met": "aspartate",
+            "sep": 117.6
+          },
+          {
+            "met": "alanine",
+            "sep": 116.6
+          }
+        ]
+      },
+      {
+        "id": "glc_1",
+        "name": "[1-13C]glucose",
+        "met": "glucose",
+        "total": 312.9,
+        "top3": [
+          {
+            "met": "citrate",
+            "sep": 118.6
+          },
+          {
+            "met": "aspartate",
+            "sep": 118.1
+          },
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 76.2
+          }
+        ]
+      },
+      {
+        "id": "glc_34",
+        "name": "[3,4-13C2]glucose",
+        "met": "glucose",
+        "total": 248.9,
+        "top3": [
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 123.4
+          },
+          {
+            "met": "alanine",
+            "sep": 116.6
+          },
+          {
+            "met": "L-lactate",
+            "sep": 8.9
+          }
+        ]
+      },
+      {
+        "id": "glc_2",
+        "name": "[2-13C]glucose",
+        "met": "glucose",
+        "total": 153.5,
+        "top3": [
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 85.4
+          },
+          {
+            "met": "alanine",
+            "sep": 58
+          },
+          {
+            "met": "L-lactate",
+            "sep": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "Reductive carboxylation (Mode B IDH1; Metallo 2012)",
+    "fvaRange": [
+      -0.4945,
+      0.3418
+    ],
+    "glnURank": 3,
+    "gln1Rank": 1,
+    "gln5Rank": 6,
+    "nTracers": 6,
+    "top5": [
+      {
+        "id": "gln_1",
+        "name": "[1-13C]glutamine",
+        "met": "glutamine",
+        "total": 295,
+        "top3": [
+          {
+            "met": "citrate",
+            "sep": 132.8
+          },
+          {
+            "met": "aspartate",
+            "sep": 127.7
+          },
+          {
+            "met": "AKG",
+            "sep": 34.4
+          }
+        ]
+      },
+      {
+        "id": "glc_12",
+        "name": "[1,2-13C2]glucose",
+        "met": "glucose",
+        "total": 281.8,
+        "top3": [
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 115.9
+          },
+          {
+            "met": "aspartate",
+            "sep": 83.1
+          },
+          {
+            "met": "citrate",
+            "sep": 82.8
+          }
+        ]
+      },
+      {
+        "id": "gln_u",
+        "name": "[U-13C5]glutamine",
+        "met": "glutamine",
+        "total": 264.3,
+        "top3": [
+          {
+            "met": "alanine",
+            "sep": 101.4
+          },
+          {
+            "met": "aspartate",
+            "sep": 83.8
+          },
+          {
+            "met": "citrate",
+            "sep": 79
+          }
+        ]
+      },
+      {
+        "id": "glc_u",
+        "name": "[U-13C6]glucose",
+        "met": "glucose",
+        "total": 263.4,
+        "top3": [
+          {
+            "met": "alanine",
+            "sep": 101.2
+          },
+          {
+            "met": "aspartate",
+            "sep": 83.1
+          },
+          {
+            "met": "citrate",
+            "sep": 79.1
+          }
+        ]
+      },
+      {
+        "id": "glc_1",
+        "name": "[1-13C]glucose",
+        "met": "glucose",
+        "total": 238.3,
+        "top3": [
+          {
+            "met": "aspartate",
+            "sep": 82.4
+          },
+          {
+            "met": "citrate",
+            "sep": 79.3
+          },
+          {
+            "met": "ribose-5-phosphate",
+            "sep": 76.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "SDHB KO vs WT (Cardaci 2015)",
+    "sdhFluxWt": -0.1721,
+    "sdhFluxKo": 0,
+    "nTracers": 6,
+    "top5": [
+      {
+        "id": "gln_1",
+        "name": "[1-13C]glutamine",
+        "met": "glutamine",
+        "total": 389.1,
+        "top3": [
+          {
+            "met": "fumarate",
+            "sep": 132.1
+          },
+          {
+            "met": "citrate",
+            "sep": 131.7
+          },
+          {
+            "met": "aspartate",
+            "sep": 125.3
+          }
+        ]
+      },
+      {
+        "id": "gln_u",
+        "name": "[U-13C5]glutamine",
+        "met": "glutamine",
+        "total": 291.1,
+        "top3": [
+          {
+            "met": "malate",
+            "sep": 107.2
+          },
+          {
+            "met": "fumarate",
+            "sep": 92.2
+          },
+          {
+            "met": "aspartate",
+            "sep": 91.7
+          }
+        ]
+      },
+      {
+        "id": "gln_5",
+        "name": "[5-13C]glutamine",
+        "met": "glutamine",
+        "total": 276.2,
+        "top3": [
+          {
+            "met": "aspartate",
+            "sep": 93.1
+          },
+          {
+            "met": "malate",
+            "sep": 91.9
+          },
+          {
+            "met": "fumarate",
+            "sep": 91.3
+          }
+        ]
+      },
+      {
+        "id": "glc_u",
+        "name": "[U-13C6]glucose",
+        "met": "glucose",
+        "total": 264.8,
+        "top3": [
+          {
+            "met": "malate",
+            "sep": 107
+          },
+          {
+            "met": "alanine",
+            "sep": 81.5
+          },
+          {
+            "met": "aspartate",
+            "sep": 76.3
+          }
+        ]
+      },
+      {
+        "id": "glc_12",
+        "name": "[1,2-13C2]glucose",
+        "met": "glucose",
+        "total": 190.8,
+        "top3": [
+          {
+            "met": "fumarate",
+            "sep": 67.1
+          },
+          {
+            "met": "aspartate",
+            "sep": 63.3
+          },
+          {
+            "met": "citrate",
+            "sep": 60.5
+          }
+        ]
+      }
+    ]
+  }
+]

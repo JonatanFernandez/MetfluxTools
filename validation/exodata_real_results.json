@@ -1,0 +1,94 @@
+{
+  "ST001609": {
+    "nWt": 13,
+    "nMut": 13,
+    "wtGlcMean": 0.04981,
+    "mutGlcMean": 0.05443,
+    "wtOdMean": 0.653,
+    "mutOdMean": 0.66,
+    "singleTimepointWarning": "WT/BY4742-1/glucose: only one time point, left out",
+    "verdict": "single-timepoint cell extract (not spent-medium time course); parser safely warns"
+  },
+  "ST003960": {
+    "freshRatio": 0.2412,
+    "wtNet": 0.6786,
+    "wtAntimycinNet": 0.8404,
+    "sdhaf2AntimycinNet": 0.456,
+    "aaVsWtFold": 1.238,
+    "sdhaf2VsAaFold": 0.543,
+    "wtAA_vs_WT_log2fc": 0.233,
+    "wtAA_vs_WT_p": 0.014541983674232267,
+    "sdhaf2AA_vs_wtAA_log2fc": -0.633,
+    "sdhaf2AA_vs_wtAA_p": 0.00022625057786994864,
+    "note": "Relative ratio to internal standard (not absolute mM) and no cell counts reported; relative secretion direction and Welch t-test reproduce Complex III glycolytic switch (+24% net lactate) and SDHAF2 blunting (-46% vs WT+AA)."
+  },
+  "lpFits": [
+    {
+      "name": "Human NCI-60 median (Jain 2012)",
+      "preset": "nci60",
+      "nMeasurements": 19,
+      "status": "optimal",
+      "weightedDeviation": 0.5287,
+      "observedGrowth": 0.03,
+      "fittedGrowth": 0.0284,
+      "rq": 1.882,
+      "cClosure": 0.8,
+      "warnings": [
+        "respiratory quotient 1.88: a cell oxidising sugars and amino acids stays near 0.7–1.3"
+      ],
+      "maxRelResidual": 0.053
+    },
+    {
+      "name": "Human HEK293 (Dietmair 2012)",
+      "preset": "hek293",
+      "nMeasurements": 24,
+      "status": "optimal",
+      "weightedDeviation": 0.6975,
+      "observedGrowth": 0.028,
+      "fittedGrowth": 0.026,
+      "rq": 0.969,
+      "cClosure": 0.694,
+      "warnings": [],
+      "maxRelResidual": 0.07
+    },
+    {
+      "name": "Human Fibroblasts prolif. (Lemons 2010)",
+      "preset": "fibroP",
+      "nMeasurements": 5,
+      "status": "optimal",
+      "weightedDeviation": 0,
+      "observedGrowth": 0.025,
+      "fittedGrowth": 0.025,
+      "rq": 1.528,
+      "cClosure": 0.824,
+      "warnings": [],
+      "maxRelResidual": 0
+    },
+    {
+      "name": "E. coli M9 glucose (Zampieri 2019)",
+      "preset": "ecoliZampieri",
+      "nMeasurements": 3,
+      "status": "optimal",
+      "weightedDeviation": 0,
+      "observedGrowth": 0.65,
+      "fittedGrowth": 0.65,
+      "rq": 1.1,
+      "cClosure": 0.507,
+      "warnings": [],
+      "maxRelResidual": 0
+    },
+    {
+      "name": "S. cerevisiae glucose 20.9% O2 (Jouhten 2008)",
+      "preset": "yeastO2_209",
+      "nMeasurements": 3,
+      "status": "optimal",
+      "weightedDeviation": 1.3531,
+      "observedGrowth": 0.1,
+      "fittedGrowth": 0.0939,
+      "rq": 1.13,
+      "cClosure": 0.442,
+      "warnings": [],
+      "maxRelResidual": 0.074
+    }
+  ]
+}

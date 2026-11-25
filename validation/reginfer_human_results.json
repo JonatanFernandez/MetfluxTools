@@ -1,0 +1,350 @@
+{
+  "datasets": [
+    "GSE211244 (Baniulyte et al., Mol. Cell. Biol. 2023)",
+    "GSE101526 (Galbraith et al., Cell Rep. 2017)"
+  ],
+  "regulons": {
+    "source": "CollecTRI (OmniPath)",
+    "organism": "Homo sapiens (9606)",
+    "license": "Open academic/research via OmniPath (Müller-Dott et al., NAR 2023)",
+    "built": "2026-11-24",
+    "nTFs": 917,
+    "nMetGenes": 1327,
+    "nGenes": 6562,
+    "nMetEdges": 11230,
+    "nAllEdges": 60657
+  },
+  "cases": [
+    {
+      "id": "Nutlin_WT",
+      "role": "positive (Nutlin-3A in TP53+/+)",
+      "expectedTf": "TP53",
+      "expectedDir": 1,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 380,
+      "rank": 1,
+      "t": 10.937,
+      "q": 1.0304970163138206e-24,
+      "nTargets": 907,
+      "nMetGenes": 28,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "TP53",
+          "t": 10.94,
+          "q": 1.0304970163138206e-24,
+          "metGenes": 28
+        },
+        {
+          "tf": "SALL2",
+          "t": 10.81,
+          "q": 1.9955957983149936e-24,
+          "metGenes": 0
+        },
+        {
+          "tf": "DMAP1",
+          "t": 10.28,
+          "q": 3.50553070085442e-22,
+          "metGenes": 0
+        },
+        {
+          "tf": "VENTX",
+          "t": 8.89,
+          "q": 1.448580142424369e-16,
+          "metGenes": 0
+        },
+        {
+          "tf": "HMGB2",
+          "t": -8.59,
+          "q": 1.5939943789686297e-15,
+          "metGenes": 1
+        }
+      ]
+    },
+    {
+      "id": "Nutlin_p53KO",
+      "role": "negative control (Nutlin-3A in TP53-/-)",
+      "expectedTf": "TP53",
+      "expectedDir": 0,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 332,
+      "rank": 447,
+      "t": 0.494,
+      "q": 0.9947740635455343,
+      "nTargets": 907,
+      "nMetGenes": 17,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "ARNT",
+          "t": 3.48,
+          "q": 0.22784618070955878,
+          "metGenes": 6
+        },
+        {
+          "tf": "HDAC1",
+          "t": -3.44,
+          "q": 0.22784618070955878,
+          "metGenes": 3
+        },
+        {
+          "tf": "SSRP1",
+          "t": 3.18,
+          "q": 0.3665269361066008,
+          "metGenes": 6
+        },
+        {
+          "tf": "TAL1",
+          "t": -3.08,
+          "q": 0.3665269361066008,
+          "metGenes": 2
+        },
+        {
+          "tf": "DAXX",
+          "t": 3,
+          "q": 0.3665269361066008,
+          "metGenes": 0
+        }
+      ]
+    },
+    {
+      "id": "Etoposide_WT",
+      "role": "positive (Etoposide in TP53+/+)",
+      "expectedTf": "TP53",
+      "expectedDir": 1,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 296,
+      "rank": 1,
+      "t": 11.459,
+      "q": 3.19565809874152e-27,
+      "nTargets": 907,
+      "nMetGenes": 40,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "TP53",
+          "t": 11.46,
+          "q": 3.19565809874152e-27,
+          "metGenes": 40
+        },
+        {
+          "tf": "SALL2",
+          "t": 6.89,
+          "q": 2.3450255360338845e-9,
+          "metGenes": 0
+        },
+        {
+          "tf": "TP73",
+          "t": 6.81,
+          "q": 2.662593109620345e-9,
+          "metGenes": 12
+        },
+        {
+          "tf": "NUPR1",
+          "t": -6.58,
+          "q": 9.65485011700438e-9,
+          "metGenes": 0
+        },
+        {
+          "tf": "OLIG2",
+          "t": -6.52,
+          "q": 1.1591241703840972e-8,
+          "metGenes": 0
+        }
+      ]
+    },
+    {
+      "id": "Etoposide_KO",
+      "role": "negative control (Etoposide in TP53-/-)",
+      "expectedTf": "TP53",
+      "expectedDir": 0,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 269,
+      "rank": 5,
+      "t": 5.628,
+      "q": 0.0000029307327231701604,
+      "nTargets": 907,
+      "nMetGenes": 23,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "OLIG2",
+          "t": -7.52,
+          "q": 4.616924378167111e-11,
+          "metGenes": 0
+        },
+        {
+          "tf": "FOXO1",
+          "t": 6.27,
+          "q": 1.4903683161791793e-7,
+          "metGenes": 19
+        },
+        {
+          "tf": "NUPR1",
+          "t": -5.94,
+          "q": 7.760951064594882e-7,
+          "metGenes": 1
+        },
+        {
+          "tf": "ZFP42",
+          "t": -5.64,
+          "q": 0.0000029307327231701604,
+          "metGenes": 1
+        },
+        {
+          "tf": "TP53",
+          "t": 5.63,
+          "q": 0.0000029307327231701604,
+          "metGenes": 23
+        }
+      ]
+    },
+    {
+      "id": "Histidinol_WT",
+      "role": "positive (Histidinol AA-starvation ISR)",
+      "expectedTf": "ATF4",
+      "expectedDir": 1,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 281,
+      "rank": 1,
+      "t": 10.004,
+      "q": 1.6785514549023156e-20,
+      "nTargets": 122,
+      "nMetGenes": 15,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "ATF4",
+          "t": 10,
+          "q": 1.6785514549023156e-20,
+          "metGenes": 15
+        },
+        {
+          "tf": "ATF2",
+          "t": 5.63,
+          "q": 0.0000073723045463721065,
+          "metGenes": 7
+        },
+        {
+          "tf": "ELK1",
+          "t": 5.14,
+          "q": 0.00007132471750420715,
+          "metGenes": 4
+        },
+        {
+          "tf": "BMAL1",
+          "t": 4.69,
+          "q": 0.0005124300259988093,
+          "metGenes": 6
+        },
+        {
+          "tf": "CLOCK",
+          "t": 4.65,
+          "q": 0.0005124300259988093,
+          "metGenes": 10
+        }
+      ]
+    },
+    {
+      "id": "Tunicamycin_WT",
+      "role": "positive (Tunicamycin ER-stress ISR)",
+      "expectedTf": "ATF4",
+      "expectedDir": 1,
+      "nGenes": 23717,
+      "nTfsScored": 769,
+      "ms": 293,
+      "rank": 1,
+      "t": 12.67,
+      "q": 1.8170342688541207e-33,
+      "nTargets": 122,
+      "nMetGenes": 14,
+      "nMetRxns": 0,
+      "top5": [
+        {
+          "tf": "ATF4",
+          "t": 12.67,
+          "q": 1.8170342688541207e-33,
+          "metGenes": 14
+        },
+        {
+          "tf": "ATF6",
+          "t": 12.31,
+          "q": 7.991445486966518e-32,
+          "metGenes": 7
+        },
+        {
+          "tf": "XBP1",
+          "t": 9.73,
+          "q": 8.553736018907611e-20,
+          "metGenes": 4
+        },
+        {
+          "tf": "ATF2",
+          "t": 7.21,
+          "q": 1.1801010143820153e-10,
+          "metGenes": 8
+        },
+        {
+          "tf": "ATF3",
+          "t": 6.36,
+          "q": 3.3833194712752415e-8,
+          "metGenes": 4
+        }
+      ]
+    },
+    {
+      "id": "Hypoxia_WT",
+      "role": "positive (HCT116 Hypoxia vs Normoxia, GSE101526)",
+      "expectedTf": "HIF1A",
+      "expectedDir": 1,
+      "nGenes": 14359,
+      "nTfsScored": 651,
+      "ms": 118,
+      "rank": 1,
+      "t": 10.987,
+      "q": 6.493605051633938e-25,
+      "nTargets": 308,
+      "nMetGenes": 36,
+      "nMetRxns": 0,
+      "epas1Rank": 2,
+      "epas1T": 6.975,
+      "top5": [
+        {
+          "tf": "HIF1A",
+          "t": 10.99,
+          "q": 6.493605051633938e-25,
+          "metGenes": 36
+        },
+        {
+          "tf": "EPAS1",
+          "t": 6.97,
+          "q": 1.1462152442303434e-9,
+          "metGenes": 4
+        },
+        {
+          "tf": "MYC",
+          "t": -6.62,
+          "q": 8.582046481065404e-9,
+          "metGenes": 78
+        },
+        {
+          "tf": "FOXO3",
+          "t": 5.82,
+          "q": 0.0000010482997322318616,
+          "metGenes": 10
+        },
+        {
+          "tf": "EGR1",
+          "t": 5.67,
+          "q": 0.000001921293916259298,
+          "metGenes": 17
+        }
+      ]
+    }
+  ]
+}

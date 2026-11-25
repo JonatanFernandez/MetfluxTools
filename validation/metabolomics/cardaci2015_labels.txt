@@ -1,0 +1,347 @@
+METABOLITE
+Sdhbfl/fl- Pyruvate
+#-1
+(Z)-4-Hydroxyphenylacetaldehyde-oxime (L-Noradrenaline frags has same152)
+[FA (11:0)] 11-bromo-undecanoic acid
+[FA amino(11:0)] 11-amino-undecanoic acid
+[FA hydroxy(8:0)] 6,8-dihydroxy-octanoic acid
+[FA methyl(8:0)] d-6-methyl-octanoic acid
+[Fv Trihydrox] 2,4,4'-Trihydroxydihydrochalcone
+[Fv] (-)-Isolonchocarpin
+[Fv] Agecorynin A
+[Fv] Boesenbergin B
+[GL (17:0/20:5)] 1-(9Z-heptadecenoyl)-2-(5Z,8Z,11Z,14Z,17Z-eicosapentaenoyl)-sn-glycerol
+[PC (16:0/18:2)] 1-(9Z-hexadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+[PC (16:2/20:3)] 1-hexadecyl-2-(8Z,11Z,14Z-eicosatrienoyl)-sn-glycero-3-phosphocholine
+[PC (16:2/20:4)] 1-hexadecyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
+[PC (6:2/14:2)] 1-(3E,5E-hexadienoyl)-2-(11E,13E-tetradecadienoyl)-sn-glycero-3-phosphocholine
+[PC] 2-valeryl-sn-glycero-3-phosphocholine
+[PE (18:0/20:0)] 1-(9Z-octadecenoyl)-2-eicosanoyl-sn-glycero-3-phosphoethanolamine
+[PE (18:1/22:6)] 1-(1Z-octadecenyl)-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine
+[PE methyl(18:0/18:0)] 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phospho-N-methylethanolamine
+[PG (18:0/18:0)] 1,2-dioctadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol)
+[SP (24:0)] N-(15Z-tetracosenoyl)-sphing-4-enine
+[SP (24:0)] N-(15Z-tetracosenoyl)-sphinganine
+[SP (3:0)] sphinga-4E,8E,10E-trienine
+[ST] (5Z,7E)-9,10-seco-5,7,10(19)-cholestatriene
+1-(3-Carboxypropyl)-3,7-dimethylxanthine [FA-]
+1-(9Z,12Z-heptadecadienoyl)-2-(11Z,14Z-eicosadienoyl)-sn-glycerol ,1-(9Z-heptadecenoyl)-2-(8Z,11Z,14Z-eicosatrienoyl)-sn-glycerol ,1-heptadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycerol
+1-(sn-Glycero-3-phospho)-1D-myo-inositol
+1,4-beta-D-Glucan
+10-Nitrolinoleic acid
+16-Hydroxy-4-carboxyretinoic acid [FA-]
+1-alkyl-2-acyl-glycerophosphoethanolamine
+1-Guanidino-1-deoxy-scyllo-inositol 4-phosphate
+1-O-(1Z-hexadecenyl)-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine
+1-Palmitoyllysophosphatidylcholine
+1-Stearoylglycerophosphocholine
+2-(4-Chlorophenyl)-3-phenyl-3-(2-pyridinyl)acrylonitrile
+2-Aminoacrylic acid
+2'-Deoxyinosine 5'-phosphate
+2-Hydroxy-3-methylpentanoic acid
+2-Hydroxyethylphosphonate
+2-Hydroxyethylphosphonate [FA-]
+2-Naphthaleneacetic acid, 6-hydroxy- [FA-]
+2-Protocatechoylphloroglucinolcarboxylate
+3',5'-Cyclic AMP
+3',5'-Cyclic IMP
+34a-Deoxy-rifamycin W
+3-Amino-2-piperidone
+3-Hydroxydodecanedioic acid
+3-Ketosphingosine
+4,4'-Sulfonyldiphenol
+4,5-Dihydroxysulfadiazine
+4-aminohippurate
+4-Guanidinobutanoic acid
+4-Hydroxy-L-proline
+5-Acetamidopentanoate
+5-amino-1-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]imidazole-4-carboxamide ,5-amino-1-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]imidazole-4-carboxamide
+5-Hydroxypentanoate
+5-Methylcytidine
+5'-Methylthioadenosine
+5'-O-beta-D-Glucosylpyridoxine
+5-Phosphoribosylamine
+5'-Phosphoribosyl-N-formylglycinamide
+7,8-Dihydroxykynurenate [FA-]
+8-Amino-7-oxononanoate
+8-Azaadenosine
+9-Amino-nonanoic acid
+Acetylaminocarnitine
+Acetylcholine
+Acitretin Ro 23-4750
+Adenine
+Adenosine 
+Adipic acid
+ADP
+AICAR
+a-Ketaglutaric acid
+Aldicarb
+Allantoic acid
+Allantoin
+Aminoadipic acid
+Amino-gamma-cyanobutanoate
+Aminoimidazole ribotide
+AMP
+Arabinonic acid
+Asn Asn Gly
+Asn Gln Gln
+Asn Gly Ala
+Asp Gly 
+Asp Met Trp
+Asp Tyr Glu
+Aspartylglycosamine
+ATP
+Barbinine
+beta-D-Fructose 1,6-bisphosphate
+Betaine
+Biliverdin
+Biotin sulfone
+Bleekerine
+BMS-268770
+B-Octylglucoside
+Butenylcarnitine
+Butyrylcarnitine
+C19 sphinganine
+Camptothecin
+Carbamazepine-o-quinone
+Carbamoyl phosphate
+Carnitine
+Carnosine
+Cassaidine
+Ceftriaxone
+CerP(d18:1/18:0)
+Choline
+Choline phosphate+
+Citicoline
+Citric acid
+Coumaric acid
+Creatine
+Creatinine
+CTP
+Cyclic ADP-ribose
+Cys Asn Ser
+Cys Lys Gly
+Cys Phe
+Cysteic acid
+Cysteine-Mesna Disulfide (L-Alanine, 3-[(2-sulfoethyl)dithio]-) [FA-]
+Cytidine monophosphate N-acetylneuraminic acid
+D-Apiitol
+D-Apiitol
+dATP
+Decadienoylcarnitine
+Dehydrosphinganine(Sphingosine)
+D-Erythrose 4-phosphate
+D-Fucosamine
+D-Gluconic acid; D-Altronate, D-Galactonate, D-Mannonate, L-Gulonate [FA-]
+D-Glucosamine 6-phosphate
+D-Glucose
+D-Glyceraldehyde 3-phosphate
+Diacetylhydrazine
+Diethanolamine
+Diethylphosphoric acid [FA-]
+dihydromethylguanosine
+dIMP
+Diosmetin
+Dithioerythritol disulfide
+Docosahexaenoic acid
+Dodecanoic acid
+Dopaxanthin
+D-Ribitol 5-phosphate [FA-]
+D-Ribose 5-phosphate
+D-Sedoheptulose 7-phosphate
+D-Sorbitol
+Ethanolamine phosphate
+Ethanolamine phosphate [FA-]
+Ethyl octanoate
+FAD
+Formiminoglutamic acid
+Fumarycarnitine
+GABA
+Galegine
+GDP
+Glu Pro ,Pro Glu
+Glu Thr ,Thr Glu
+Glucosamine
+Glucosylceramide (d18:1/16:0)
+Glucuronic acid; 2-Keto-D-gluconic acid ; isomer D-Fru(Gala)cturonate [FA-]
+Glutathione
+Glutathione
+Glycerophosphocholine
+Glycerophosphocholine
+Glycerophosphoglycerol
+Glycerylphosphorylethanolamine
+Glycine
+Guanidine proline+
+Guanidoacetic acid
+Heliettin
+Heme [FA-]
+Heptadecanoic acid
+Heptanoylcarnitine
+Hexanoylcarnitine
+Hexose-phosphate
+Homoanserine
+Hyaluronic acid
+hydroxyguanine
+Hydroxyvalerylcarnitine
+Hypotaurine
+Hypoxanthine (Allopurinol)
+Imidazolelactic acid
+IMP
+Inosine
+Isoleucine
+Kynurenic acid
+L-2,4-diaminobutyric acid
+L-2-Hydroxyglutaric acid
+L-Alanine
+L-Arginine
+L-Asparagine
+L-Aspartic acid
+L-beta-aspartyl-L-alanine
+L-beta-aspartyl-L-threonine
+L-Citrulline
+Leu Thr
+Leucine
+Leu-Pro
+L-Glutamic acid
+L-Glutamine
+L-Histidine
+L-Histidinol
+Linoleic acid
+Linolylcarnitine
+Lipid 716
+Lipid 722
+Lipid724
+L-Lactic acid
+L-Lysine
+L-Methionine
+L-Palmitoylcarnitine
+L-Phenylalanine
+L-Proline
+L-Serine
+L-Serine-phosphoethanolamine
+L-Threonine
+L-Threonine O-3-phosphate [FA-]
+L-Tryptophan
+L-Tyrosine
+L-Valine
+Lys Asp Asp
+Lys Cys Arg
+Lys His Met
+LysoPC(15:0)
+LysoPC(18:1(9Z))
+LysoPC(20:3(5Z,8Z,11Z))
+Maclurin
+Mahanimbine
+Malate
+Methyhypoxanthine (Might isotope 1 of Methionine)
+Methylxanthine
+Multiradiatin
+Myxochelin A
+Myxochelin B
+N2,N2-Dimethylguanosine
+N2-Acetyl-L-aminoadipyl-delta-phosphate [FA-]
+N-Acetylglutamic acid
+N-Acetylglutamine
+N-acetylhistamine
+N-Acetyl-L-aspartic acid
+N-Acetyl-L-methionine
+NAD+
+NADH
+Natamycin
+N-Benzoyl-D-arginine
+N-Dimethyl-2-aminoethylphosphonate
+N-Formyl-L-methionine
+N-gamma-Acetyldiaminobutyrate
+N-Glycosyl-L-asparagine
+Nicotinamide
+Nicotinamide N-oxide
+N-Methylethanolamine phosphate
+N-Palmitoylsphingosine ,Ceramide (d18:1/16:0)
+O-Acetylcarnitine
+O-Acetylserine
+Octadecanamide
+Octadecanoic acid
+Odoratol
+Oleamide
+O-Phospho-4-hydroxy-L-threonine
+O-Phospho-L-serine
+Ophthalmic acid
+Oxaloglutarate [FA-]
+Oxalosuccinic acid
+Oxidized glutathione
+PA(16:0/16:0)
+palmitamide
+Palmitic acid
+Pantetheine 4'-phosphate [FA-]
+Pantothenic acid
+PC(14:0/14:0)
+PC(14:0/20:1(11Z))
+PC(14:1(9Z)/P-16:0)
+PC(18:3(6Z,9Z,12Z)/P-18:1(11Z))
+PC(o-16:0/18:0)
+PE(20:2(11Z,14Z)/P-18:1(11Z))
+PE(20:4(5Z,8Z,11Z,14Z)/P-18:1(11Z))
+PE(22:4(7Z,10Z,13Z,16Z)/P-18:1(11Z))
+PE(P-16:0e/0:0)
+Pentadecanoic acid
+Pentane-2,4-dione
+Pentylenetetrazole
+PG(16:0/18:1(11Z))
+Phe Arg Trp
+Phenylethylmalonamide (PEMA)
+Phenylpropiolic acid
+Phosphocreatine
+Phosphodimethylethanolamine
+Phosphonoacetaldehyde
+Phosphonoacetate [FA-]
+Phosphononorvaline 
+Phosphoribosylformylglycineamidine
+p-Hydroxyclonidine ,guanfacine
+Phyllanthostatin A
+Pinocembrin 7-rhamnosylglucoside
+Piperidine
+Pro Ser Glu
+Propane-1,2-diol 1-phosphate
+Propionyl Carnitine
+Pyridoxine
+Pyrimidine 5'-deoxynucleotide
+Pyroglutamic acid
+Pyrophosphate
+Pyruvic acid
+Retinoic acid
+S-(Formylmethyl)glutathione
+S-Adenosyl-L-homocysteine
+Ser Glu Ala
+Ser Thr Ser
+S-Formylglutathione
+S-Glutathionyl-L-cysteine
+SM(d18:0/14:1(9Z)(OH))
+SM(d18:1/14:0)
+SM(d18:1/20:0)
+Sphinganine
+Succinic acid
+Taurine
+Terazosin
+Tet-glycine
+Tetracosahexaynoic acid
+Tetradecanedioic acid
+Tetraethylammonium
+Thenylchlor
+Thiomorpholine 3-carboxylate
+Thr Tyr Trp
+THTC
+Thyroacetic acid ,dioxybenzone ,3,3,45-Tetrahydroxystilbene
+Ticlopidine
+Triadimefon
+Tributyl phosphate
+Triethanolamine
+Trifluoromethylphenylpropanediol [FA-]
+Tuberonic acid glucoside
+UDP-glucose
+UDP-N-acetyl-D-glucosamine
+Undecanoic acid
+Undecanoylcarnitine
+Uridine diphosphate glucuronic acid
+UTP
+Valdecoxib
+Vinylacetylglycine

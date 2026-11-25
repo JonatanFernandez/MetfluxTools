@@ -1,0 +1,32 @@
+{
+  "model": "ecoli-gem (iML1515)",
+  "benchmark": "Monk et al. 2017 Nature Biotechnology 35:904-908, Supplementary Data 11 Table 1 (Glucose)",
+  "wtGrowth": 0.70815,
+  "screenMs": 18081,
+  "uniqueLps": 853,
+  "cutoff50": {
+    "matched": 1503,
+    "tp": 178,
+    "fp": 24,
+    "tn": 1230,
+    "fn": 71,
+    "acc": 0.9367930805056554,
+    "prec": 0.8811881188118812,
+    "rec": 0.714859437751004,
+    "mcc": 0.7583488327963797,
+    "sameAsMonk": 1503,
+    "diffs": []
+  },
+  "cutoff01": {
+    "matched": 1503,
+    "tp": 178,
+    "fp": 16,
+    "tn": 1238,
+    "fn": 71,
+    "acc": 0.9421157684630739,
+    "prec": 0.9175257731958762,
+    "rec": 0.714859437751004,
+    "mcc": 0.7785327595934308,
+    "sameAsMonk": 1495
+  }
+}

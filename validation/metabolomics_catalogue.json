@@ -1,0 +1,91 @@
+{
+ "about": "Public metabolomics studies gathered for validating the interpretation of the user's own data, and as the published examples behind the application's worked-example library. Fetch them with tools/validation/fetch_metabolomics.sh; everything here was read from the Metabolomics Workbench REST API, not from memory.",
+ "source": "Metabolomics Workbench (NIH Common Fund), https://www.metabolomicsworkbench.org — each study also has its own DOI and terms; check them before redistributing the data",
+ "checked": "2026-11-23",
+ "studies": [
+  {
+   "id": "ST002076",
+   "analysis": "AN003383",
+   "organism": "Escherichia coli K-12 MG1655",
+   "model": "ecoli-gem",
+   "metabolites": 22,
+   "samples": 24,
+   "units": "umol/gDCW",
+   "absolute": true,
+   "design": "wild type and three regulator knockouts (WT, FA, FI, AI), 6 replicates each, anaerobic fermentation",
+   "measures": "intracellular: 18 amino acids, NAD, NADPH, GABA",
+   "whyItMatters": "the only one in absolute amounts per gram dry weight, the same basis the application uses, and iML1515 is in the catalogue. The primary test case for the intracellular side.",
+   "institute": "IIT Bombay"
+  },
+  {
+   "id": "ST004848",
+   "analysis": "AN008205",
+   "organism": "Mus musculus",
+   "model": "mouse-gem",
+   "metabolites": 118,
+   "samples": 90,
+   "units": "AU (relative)",
+   "absolute": false,
+   "design": "MPC11 myeloma cells, control against methionine restriction (0.5 mg/L), three time points (24, 48, 120 h), 9 replicates per group",
+   "measures": "intracellular",
+   "whyItMatters": "the richest panel and the cleanest design: a single nutrient removed, with a time course and real replicates. Methionine restriction has an expected signature (methionine, the transsulfuration route, polyamines) to check the hypotheses against.",
+   "institute": "Universitatsklinikum Wurzburg"
+  },
+  {
+   "id": "ST004339",
+   "analysis": "AN007246",
+   "organism": "Rattus norvegicus",
+   "model": "rat-gem",
+   "metabolites": 53,
+   "samples": 19,
+   "units": "abundance (relative)",
+   "absolute": false,
+   "design": "INS-1 832/13 cells, buthionine sulfoximine (BSO) against control, in medium with and without 2-mercaptoethanol",
+   "measures": "intracellular",
+   "whyItMatters": "BSO inhibits one known enzyme, glutamate-cysteine ligase (GCLC), so the cause is known in advance: the ideal case for the bottleneck detector. GCLC was also one of the systematic false positives of the DepMap comparison.",
+   "institute": "Yale"
+  },
+  {
+   "id": "ST001609",
+   "analysis": "AN002643",
+   "organism": "Saccharomyces cerevisiae BY4742",
+   "model": "yeast-gem",
+   "metabolites": 1,
+   "samples": 26,
+   "units": "mM",
+   "absolute": true,
+   "design": "wild type against mtl1 (YGR023W) deletion, 13 cultures each, with OD600 recorded per sample",
+   "measures": "glucose in the medium",
+   "whyItMatters": "one metabolite only, so it is useless for a network analysis, but glucose in mM together with OD600 per culture is exactly the input of the exometabolomics rate calculation. A small, real test of that path on yeast-GEM.",
+   "institute": "University of Puerto Rico"
+  },
+  {
+   "id": "ST003960",
+   "analysis": "AN006508",
+   "organism": "Homo sapiens",
+   "model": "human-gem",
+   "metabolites": 2,
+   "samples": 12,
+   "units": "Ratio of relative abundance",
+   "absolute": false,
+   "design": "spent medium of HEK293: fresh medium, wild type, wild type with antimycin A, and an SDHAF2 mutant with antimycin A, 3 replicates each",
+   "measures": "lactate in the medium, against an inositol internal standard",
+   "whyItMatters": "only lactate, but the design is pointed: fresh medium as the starting point (the exometabolomics layout), a complex III inhibitor and a succinate dehydrogenase assembly mutant. It touches the same enzyme as the SDHB work in this project, and the cells are HEK293, like Dietmair 2012.",
+   "institute": "University of Melbourne"
+  }
+ ],
+ "alsoSeen": [
+  {
+   "id": "ST001142",
+   "organism": "Homo sapiens",
+   "samples": 928,
+   "note": "CCLE metabolomics across hundreds of cell lines. Not a two-condition design, so it does not fit the contrast analysis, but it pairs with the DepMap comparison already in the repository: one metabolome per line, for the same lines."
+  }
+ ],
+ "notFit": [
+  {
+   "id": "pone.0043394.s003 (Dietmair 2012)",
+   "note": "kept separately as tools/validation/dietmair2012_intracellular.json: 52 metabolites, HEK293 producer against non-producer, and the same paper's Table 2 is the application's hek293 measured exchange set."
+  }
+ ]
+}

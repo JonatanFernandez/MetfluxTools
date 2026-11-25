@@ -1,0 +1,127 @@
+#METABOLOMICS WORKBENCH nchorna_20201127_034822 DATATRACK_ID:2331 STUDY_ID:ST001609 ANALYSIS_ID:AN002643 PROJECT_ID:PR001034
+VERSION             	1
+CREATED_ON             	November 30, 2020, 11:40 am
+#PROJECT
+PR:PROJECT_TITLE                 	Comparative metabolomics analysis of two Saccharomyces cerevisiae strains: the
+PR:PROJECT_TITLE                 	wild type and mtl1Δ, which carries a deletion of the mechanosensor Mtl1p
+PR:PROJECT_SUMMARY               	To gather more in-depth knowledge of the Mtl1p mechanosensor's role in
+PR:PROJECT_SUMMARY               	Saccharomyces cerevisiae metabolism, we conducted a comparative metabolomic
+PR:PROJECT_SUMMARY               	analysis of two Saccharomyces cerevisiae strains: the wild type and mtl1Δ,
+PR:PROJECT_SUMMARY               	which carries a deletion of the mechanosensor Mtl1p. Both strains were grown
+PR:PROJECT_SUMMARY               	under normal conditions at 27°C. The most significant metabolic changes between
+PR:PROJECT_SUMMARY               	these strains were related to amino acid metabolism, purine metabolism, and
+PR:PROJECT_SUMMARY               	carboxylic acid metabolism.
+PR:INSTITUTE                     	University of Puerto Rico, Medical Sciences Campus
+PR:DEPARTMENT                    	Biochemistry
+PR:LAST_NAME                     	Chorna
+PR:FIRST_NAME                    	Nataliya
+PR:ADDRESS                       	University of Puerto Rico, Medical Sciences Campus, Department of Biochemistry,
+PR:ADDRESS                       	Main Building, 6th Floor, Room A-632, San Juan, PR 00935
+PR:EMAIL                         	nataliya.chorna@upr.edu
+PR:PHONE                         	787-758-2525 x 1640
+PR:FUNDING_SOURCE                	NIGMS-NIH-PRINBRE-P20GM103475
+PR:CONTRIBUTORS                  	Nelson Martínez–Matías, Sahily González–Crespo
+#STUDY
+ST:STUDY_TITLE                   	Comparative metabolomics analysis of two Saccharomyces cerevisiae strains: the
+ST:STUDY_TITLE                   	wild type and mtl1Δ, which carries a deletion of the mechanosensor Mtl1p.
+ST:STUDY_SUMMARY                 	To gather more in-depth knowledge of the Mtl1p mechanosensor's role in
+ST:STUDY_SUMMARY                 	Saccharomyces cerevisiae metabolism, we conducted a comparative metabolomic
+ST:STUDY_SUMMARY                 	analysis of two Saccharomyces cerevisiae strains: the wild type and mtl1Δ,
+ST:STUDY_SUMMARY                 	which carries a deletion of the mechanosensor Mtl1p. Both strains were grown
+ST:STUDY_SUMMARY                 	under normal conditions at 27°C. The most significant metabolic changes between
+ST:STUDY_SUMMARY                 	these strains were related to amino acid metabolism, purine metabolism, and
+ST:STUDY_SUMMARY                 	carboxylic acid metabolism.
+ST:INSTITUTE                     	University of Puerto Rico, Medical Sciences Campus
+ST:LAST_NAME                     	Chorna
+ST:FIRST_NAME                    	Nataliya
+ST:ADDRESS                       	University of Puerto Rico, Medical Sciences Campus, Department of Biochemistry,
+ST:ADDRESS                       	Main Building, 6th Floor, Room A-632, San Juan, PR 00935
+ST:EMAIL                         	nataliya.chorna@upr.edu
+ST:PHONE                         	787-758-2525 ext 1640
+ST:NUM_GROUPS                    	2
+ST:TOTAL_SUBJECTS                	26
+#SUBJECT
+SU:SUBJECT_TYPE                  	Yeast
+SU:SUBJECT_SPECIES               	Saccharomyces cerevisiae
+SU:TAXONOMY_ID                   	4932
+SU:GENOTYPE_STRAIN               	BY4742, YGR023w
+SU:CELL_BIOSOURCE_OR_SUPPLIER    	Open Biosystems
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-1	Strain:Wild-type	RAW_FILE_NAME=BY4742-1.qgd; OD600=0.625
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-2	Strain:Wild-type	RAW_FILE_NAME=BY4742-2.qgd; OD600=0.627
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-3	Strain:Wild-type	RAW_FILE_NAME=BY4742-3.qgd; OD600=0.594
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-4	Strain:Wild-type	RAW_FILE_NAME=BY4742-4.qgd; OD600=0.661
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-5	Strain:Wild-type	RAW_FILE_NAME=BY4742-5.qgd; OD600=0.689
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-6	Strain:Wild-type	RAW_FILE_NAME=BY4742-6.qgd; OD600=0.644
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-7	Strain:Wild-type	RAW_FILE_NAME=BY4742-7.qgd; OD600=0.667
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-8	Strain:Wild-type	RAW_FILE_NAME=BY4742-8.qgd; OD600=0.678
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-9	Strain:Wild-type	RAW_FILE_NAME=BY4742-9.qgd; OD600=0.660
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-10	Strain:Wild-type	RAW_FILE_NAME=BY4742-10.qgd; OD600=0.663
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-11	Strain:Wild-type	RAW_FILE_NAME=BY4742-11.qgd; OD600=0.682
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-12	Strain:Wild-type	RAW_FILE_NAME=BY4742-12.qgd; OD600=0.613
+SUBJECT_SAMPLE_FACTORS           	-	BY4742-13	Strain:Wild-type	RAW_FILE_NAME=BY4742-13.qgd; OD600=0.683
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-1	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-1.qgd; OD600=0.652
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-2	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-2.qgd; OD600=0.627
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-3	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-3.qgd; OD600=0.602
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-4	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-4.qgd; OD600=0.661
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-5	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-5.qgd; OD600=0.639
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-6	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-6.qgd; OD600=0.713
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-7	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-7.qgd; OD600=0.635
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-8	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-8.qgd; OD600=0.694
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-9	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-9.qgd; OD600=0.685
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-10	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-10.qgd; OD600=0.628
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-11	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-11.qgd; OD600=0.681
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-12	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-12.qgd; OD600=0.684
+SUBJECT_SAMPLE_FACTORS           	-	YGR023w-13	Strain:mtl1Δ	RAW_FILE_NAME=YGR023w-13.qgd; OD600=0.683
+#COLLECTION
+CO:COLLECTION_SUMMARY            	Cells were grown at 27°C, 210 rpm in 5 mL of complete synthetic medium (CSM,
+CO:COLLECTION_SUMMARY            	0.67% Nitrogen base without amino acids and ammonium sulfate, 2% glucose). The
+CO:COLLECTION_SUMMARY            	next day, cells were replaced with fresh CSM and grow at 27°C to reach an OD of
+CO:COLLECTION_SUMMARY            	0.6 - 0.7. 25 ml of each sample were harvested by centrifugation at 3,838 x g
+CO:COLLECTION_SUMMARY            	for 5 min at 4°C, washed with 1 ml ice cold sterile water, quenched using ice
+CO:COLLECTION_SUMMARY            	cold methanol, and stored at -80°C.
+CO:SAMPLE_TYPE                   	Yeast cells
+#TREATMENT
+TR:TREATMENT_SUMMARY             	No treatment
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	Extraction of metabolites was performed by homogenization in 1 mL of cold
+SP:SAMPLEPREP_SUMMARY            	methanol/H2O (1:1) extraction solution and centrifugated at 167 x g at 4°C for
+SP:SAMPLEPREP_SUMMARY            	5 min. Supernatants were collected and evaporated to dryness in a nitrogen
+SP:SAMPLEPREP_SUMMARY            	stream stream at 50 ºC (RapidVap, Labconco). Nitrilation was performed by
+SP:SAMPLEPREP_SUMMARY            	adding 150 μL of 0.2 mM hydroxylammonium chloride in pyridine to the dried
+SP:SAMPLEPREP_SUMMARY            	sample, and then heating at 90ºC for 40 minutes. After that, acetylation was
+SP:SAMPLEPREP_SUMMARY            	performed by adding 250 μL of acetic anhydride, and then heating at 90 ºC for
+SP:SAMPLEPREP_SUMMARY            	60 minutes. After that, the sample was dried again in a nitrogen gas stream, and
+SP:SAMPLEPREP_SUMMARY            	then redissolved in 400 μL of ethyl acetate. Derivatized samples were collected
+SP:SAMPLEPREP_SUMMARY            	and stored at -20ºC.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_TYPE           	GC
+CH:INSTRUMENT_NAME               	Shimadzu GCMS-QP2010 ultra
+CH:COLUMN_NAME                   	Shimadzu SH-RXI (30M x 0.25mm x 0.25um)
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Shimadzu QP2010 Ultra
+MS:INSTRUMENT_TYPE               	Single quadrupole
+MS:MS_TYPE                       	EI
+MS:ION_MODE                      	POSITIVE
+MS:MS_COMMENTS                   	Inlet temperature was 280°C; ion source temperature was 200 °C. MS
+MS:MS_COMMENTS                   	conditions were set as follows: SIM acquisition mode, electron energy of
+MS:MS_COMMENTS                   	70 eV, quadrupole scan range of m/z 115; 187; 212;314. Data were processed
+MS:MS_COMMENTS                   	using the GCMS Solution Postrun Analysis software (Shimadzu Inc) for metabolites
+MS:MS_COMMENTS                   	identification from their electron impact mass spectra by comparison to the NIST
+MS:MS_COMMENTS                   	2014 spectral mass library.
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	mM
+MS_METABOLITE_DATA_START
+Samples	BY4742-1	BY4742-2	BY4742-3	BY4742-4	BY4742-5	BY4742-6	BY4742-7	BY4742-8	BY4742-9	BY4742-10	BY4742-11	BY4742-12	BY4742-13	YGR023w-1	YGR023w-2	YGR023w-3	YGR023w-4	YGR023w-5	YGR023w-6	YGR023w-7	YGR023w-8	YGR023w-9	YGR023w-10	YGR023w-11	YGR023w-12	YGR023w-13
+Factors	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:Wild-type	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ	Strain:mtl1Δ
+Glucose	0.038140	0.039380	0.060200	0.050120	0.069050	0.041340	0.042350	0.037060	0.085690	0.038010	0.051820	0.050020	0.044300	0.12715	0.06061	0.04862	0.06086	0.03731	0.03711	0.03789	0.03592	0.04124	0.0383	0.0839	0.04703	0.05165
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	quantified m/z	KEGG
+Glucose	180	C00031
+METABOLITES_END
+#END
+

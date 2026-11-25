@@ -1,0 +1,387 @@
+{
+  "humanAuxotrophies": [
+    {
+      "gene": "SDHB",
+      "nutrient": "pyruvate + aspartate",
+      "ref": "Cardaci et al. 2015",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0.03704,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": false
+    },
+    {
+      "gene": "ASS1",
+      "nutrient": "arginine",
+      "ref": "Delage et al. 2010",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": true
+    },
+    {
+      "gene": "ASNS",
+      "nutrient": "asparagine",
+      "ref": "Richards & Kilberg 2006",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": true
+    },
+    {
+      "gene": "PHGDH",
+      "nutrient": "serine/glycine",
+      "ref": "Possemato et al. 2011",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0.03704,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": false
+    },
+    {
+      "gene": "PSAT1",
+      "nutrient": "serine/glycine",
+      "ref": "Possemato et al. 2011",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0,
+      "koRescued": 0,
+      "acquiredAuxotrophy": false
+    },
+    {
+      "gene": "ALDH18A1",
+      "nutrient": "proline",
+      "ref": "Loayza-Puch et al. 2016",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0.03704,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": false
+    },
+    {
+      "gene": "GLUL",
+      "nutrient": "glutamine",
+      "ref": "Tardito et al. 2015",
+      "wtDeprived": 0.03704,
+      "koDeprived": 0,
+      "koRescued": 0.03704,
+      "acquiredAuxotrophy": true
+    }
+  ],
+  "humanSyntheticLethals": [
+    {
+      "genes": [
+        "IMPDH1",
+        "IMPDH2"
+      ],
+      "ref": "GMP de novo synthesis paralogs",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "CTPS1",
+        "CTPS2"
+      ],
+      "ref": "CTP synthase paralogs (Martin et al. 2014)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 0,
+      "classification": "SYNTHETIC LETHAL"
+    },
+    {
+      "genes": [
+        "PRPS1",
+        "PRPS2",
+        "PRPS1L1"
+      ],
+      "ref": "PRPP synthetase paralogs",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 0,
+      "classification": "SYNTHETIC LETHAL"
+    },
+    {
+      "genes": [
+        "MAT2A",
+        "MAT1A"
+      ],
+      "ref": "SAM synthetase paralogs (Marjon et al. 2016)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "HK1",
+        "HK2",
+        "HK3",
+        "GCK",
+        "HKDC1"
+      ],
+      "ref": "Hexokinase family",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "RRM2",
+        "RRM2B"
+      ],
+      "ref": "Ribonucleotide reductase M2 paralogs",
+      "wt": 0.03704,
+      "relSingle1": 0,
+      "relSingle2": 0,
+      "relDouble": 0,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "ACLY",
+        "ACSS2"
+      ],
+      "ref": "Cytosolic acetyl-CoA in lipid-free medium (Zhao et al. 2016)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "ENO1",
+        "ENO2"
+      ],
+      "ref": "Muller et al. 2012 (rich-medium bypass test)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "SDHB",
+        "PC"
+      ],
+      "ref": "Cardaci et al. 2015 (rich-medium bypass test)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "GOT1",
+        "GOT2"
+      ],
+      "ref": "Birsoy et al. 2015 (rich-medium bypass test)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    },
+    {
+      "genes": [
+        "SHMT1",
+        "SHMT2"
+      ],
+      "ref": "Ducker et al. 2016 (rich-medium bypass test)",
+      "wt": 0.03704,
+      "relSingle1": 1,
+      "relSingle2": 1,
+      "relDouble": 1,
+      "classification": "redundant/non-essential"
+    }
+  ],
+  "ecoliAuxotrophs": [
+    {
+      "gene": "trpA",
+      "rescueMetabolite": "tryptophan",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.72976,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "hisB",
+      "rescueMetabolite": "histidine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.71482,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "argH",
+      "rescueMetabolite": "D-arginine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.74978,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "metA",
+      "rescueMetabolite": "methionine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.71959,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "leuB",
+      "rescueMetabolite": "leucine",
+      "m9Growth": 0.70815,
+      "rescuedGrowth": 0.71814,
+      "wrongNutrientGrowth": 0.72976,
+      "exactRescue": false
+    },
+    {
+      "gene": "ilvA",
+      "rescueMetabolite": "isoleucine",
+      "m9Growth": 0.70815,
+      "rescuedGrowth": 0.71992,
+      "wrongNutrientGrowth": 0.72976,
+      "exactRescue": false
+    },
+    {
+      "gene": "lysA",
+      "rescueMetabolite": "lysine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.72129,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "proA",
+      "rescueMetabolite": "proline",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.72822,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "thrC",
+      "rescueMetabolite": "threonine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.74948,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "tyrA",
+      "rescueMetabolite": "tyrosine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.71593,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "pheA",
+      "rescueMetabolite": "phenylalanine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.71871,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "serA",
+      "rescueMetabolite": "serine",
+      "m9Growth": 0.6787,
+      "rescuedGrowth": 0.73775,
+      "wrongNutrientGrowth": 0.70266,
+      "exactRescue": false
+    },
+    {
+      "gene": "glyA",
+      "rescueMetabolite": "glycine",
+      "m9Growth": 0.68899,
+      "rescuedGrowth": 0.72679,
+      "wrongNutrientGrowth": 0.71338,
+      "exactRescue": false
+    },
+    {
+      "gene": "cysE",
+      "rescueMetabolite": "cysteine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.72077,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "purA",
+      "rescueMetabolite": "adenine",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.7423,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    },
+    {
+      "gene": "pyrB",
+      "rescueMetabolite": "uracil",
+      "m9Growth": 0,
+      "rescuedGrowth": 0.71848,
+      "wrongNutrientGrowth": 0,
+      "exactRescue": true
+    }
+  ],
+  "depmapParalogCheck": [
+    {
+      "target": "ENO1",
+      "paralog": "ENO2",
+      "nLow": 18,
+      "nHigh": 615,
+      "meanChronosLow": -0.7847,
+      "meanChronosHigh": -0.584,
+      "delta": -0.2006,
+      "welchT": -2.7
+    },
+    {
+      "target": "ME2",
+      "paralog": "ME3",
+      "nLow": 236,
+      "nHigh": 268,
+      "meanChronosLow": -0.0948,
+      "meanChronosHigh": -0.0833,
+      "delta": -0.0115,
+      "welchT": -0.74
+    },
+    {
+      "target": "GLS",
+      "paralog": "GLS2",
+      "nLow": 413,
+      "nHigh": 97,
+      "meanChronosLow": -0.2244,
+      "meanChronosHigh": -0.1486,
+      "delta": -0.0758,
+      "welchT": -2.99
+    },
+    {
+      "target": "MAT2A",
+      "paralog": "MAT1A",
+      "nLow": 640,
+      "nHigh": 17,
+      "meanChronosLow": -1.4848,
+      "meanChronosHigh": -1.2005,
+      "delta": -0.2843,
+      "welchT": -2.24
+    },
+    {
+      "target": "ACLY",
+      "paralog": "ACSS2",
+      "nLow": 11,
+      "nHigh": 673,
+      "meanChronosLow": -0.9512,
+      "meanChronosHigh": -0.5495,
+      "delta": -0.4017,
+      "welchT": -5.04
+    }
+  ]
+}

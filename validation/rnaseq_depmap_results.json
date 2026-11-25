@@ -1,0 +1,738 @@
+{
+  "nAllDepLines": 730,
+  "nPanelLines": 12,
+  "panelLines": [
+    {
+      "id": "ACH-000001",
+      "name": "NIH:OVCAR-3",
+      "lineage": "Ovary/Fallopian Tube",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000004",
+      "name": "HEL",
+      "lineage": "Myeloid",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000005",
+      "name": "HEL 92.1.7",
+      "lineage": "Myeloid",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000007",
+      "name": "LS513",
+      "lineage": "Bowel",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000009",
+      "name": "C2BBe1",
+      "lineage": "Bowel",
+      "medium": "dmem"
+    },
+    {
+      "id": "ACH-000011",
+      "name": "253J",
+      "lineage": "Bladder/Urinary Tract",
+      "medium": "dmem"
+    },
+    {
+      "id": "ACH-000012",
+      "name": "HCC-827",
+      "lineage": "Lung",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000013",
+      "name": "ONCO-DG-1",
+      "lineage": "Ovary/Fallopian Tube",
+      "medium": "rpmi1640"
+    },
+    {
+      "id": "ACH-000014",
+      "name": "Hs 294T",
+      "lineage": "Skin",
+      "medium": "dmem"
+    },
+    {
+      "id": "ACH-000015",
+      "name": "NCI-H1581",
+      "lineage": "Lung",
+      "medium": "dmem"
+    },
+    {
+      "id": "ACH-000022",
+      "name": "PA-TU-8988S",
+      "lineage": "Pancreas",
+      "medium": "dmem"
+    },
+    {
+      "id": "ACH-000023",
+      "name": "PA-TU-8988T",
+      "lineage": "Pancreas",
+      "medium": "dmem"
+    }
+  ],
+  "nGenesMatchedInDepMapRna": 2848,
+  "nModelGenes": 2870,
+  "mediumComparison730": [
+    {
+      "mode": "generic",
+      "medium": "default",
+      "nEss": 115,
+      "chronos05": {
+        "all": {
+          "tp": 55577,
+          "fp": 26851,
+          "tn": 1764904,
+          "fn": 167140,
+          "prec": 0.6742,
+          "rec": 0.2495,
+          "mcc": 0.3713
+        },
+        "nonCommon": {
+          "tp": 804,
+          "fp": 13788,
+          "tn": 1668953,
+          "fn": 27120,
+          "prec": 0.0551,
+          "rec": 0.0288,
+          "mcc": 0.0284
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 39141,
+          "fp": 43287,
+          "tn": 1863864,
+          "fn": 68180,
+          "prec": 0.4749,
+          "rec": 0.3647,
+          "mcc": 0.3877
+        },
+        "nonCommon": {
+          "tp": 46,
+          "fp": 14546,
+          "tn": 1693453,
+          "fn": 2620,
+          "prec": 0.0032,
+          "rec": 0.0173,
+          "mcc": 0.0037
+        }
+      }
+    },
+    {
+      "mode": "generic",
+      "medium": "defaultSerum",
+      "nEss": 103,
+      "chronos05": {
+        "all": {
+          "tp": 53393,
+          "fp": 20275,
+          "tn": 1771480,
+          "fn": 169324,
+          "prec": 0.7248,
+          "rec": 0.2397,
+          "mcc": 0.3816
+        },
+        "nonCommon": {
+          "tp": 794,
+          "fp": 10878,
+          "tn": 1671863,
+          "fn": 27130,
+          "prec": 0.068,
+          "rec": 0.0284,
+          "mcc": 0.0338
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 38394,
+          "fp": 35274,
+          "tn": 1871877,
+          "fn": 68927,
+          "prec": 0.5212,
+          "rec": 0.3577,
+          "mcc": 0.4059
+        },
+        "nonCommon": {
+          "tp": 46,
+          "fp": 11626,
+          "tn": 1696373,
+          "fn": 2620,
+          "prec": 0.0039,
+          "rec": 0.0173,
+          "mcc": 0.005
+        }
+      }
+    },
+    {
+      "mode": "generic",
+      "medium": "rpmi1640",
+      "nEss": 119,
+      "chronos05": {
+        "all": {
+          "tp": 58281,
+          "fp": 27067,
+          "tn": 1764688,
+          "fn": 164436,
+          "prec": 0.6829,
+          "rec": 0.2617,
+          "mcc": 0.3839
+        },
+        "nonCommon": {
+          "tp": 754,
+          "fp": 11648,
+          "tn": 1671093,
+          "fn": 27170,
+          "prec": 0.0608,
+          "rec": 0.027,
+          "mcc": 0.03
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 40188,
+          "fp": 45160,
+          "tn": 1861991,
+          "fn": 67133,
+          "prec": 0.4709,
+          "rec": 0.3745,
+          "mcc": 0.3911
+        },
+        "nonCommon": {
+          "tp": 36,
+          "fp": 12366,
+          "tn": 1695633,
+          "fn": 2630,
+          "prec": 0.0029,
+          "rec": 0.0135,
+          "mcc": 0.0029
+        }
+      }
+    },
+    {
+      "mode": "generic",
+      "medium": "dmem",
+      "nEss": 123,
+      "chronos05": {
+        "all": {
+          "tp": 58469,
+          "fp": 29799,
+          "tn": 1761956,
+          "fn": 164248,
+          "prec": 0.6624,
+          "rec": 0.2625,
+          "mcc": 0.3767
+        },
+        "nonCommon": {
+          "tp": 942,
+          "fp": 14380,
+          "tn": 1668361,
+          "fn": 26982,
+          "prec": 0.0615,
+          "rec": 0.0337,
+          "mcc": 0.0339
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 40233,
+          "fp": 48035,
+          "tn": 1859116,
+          "fn": 67088,
+          "prec": 0.4558,
+          "rec": 0.3749,
+          "mcc": 0.3837
+        },
+        "nonCommon": {
+          "tp": 81,
+          "fp": 15241,
+          "tn": 1692758,
+          "fn": 2585,
+          "prec": 0.0053,
+          "rec": 0.0304,
+          "mcc": 0.009
+        }
+      }
+    },
+    {
+      "mode": "generic",
+      "medium": "plasmax",
+      "nEss": 111,
+      "chronos05": {
+        "all": {
+          "tp": 55211,
+          "fp": 24297,
+          "tn": 1767458,
+          "fn": 167506,
+          "prec": 0.6944,
+          "rec": 0.2479,
+          "mcc": 0.3774
+        },
+        "nonCommon": {
+          "tp": 754,
+          "fp": 11648,
+          "tn": 1671093,
+          "fn": 27170,
+          "prec": 0.0608,
+          "rec": 0.027,
+          "mcc": 0.03
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 39141,
+          "fp": 40367,
+          "tn": 1866784,
+          "fn": 68180,
+          "prec": 0.4923,
+          "rec": 0.3647,
+          "mcc": 0.3963
+        },
+        "nonCommon": {
+          "tp": 36,
+          "fp": 12366,
+          "tn": 1695633,
+          "fn": 2630,
+          "prec": 0.0029,
+          "rec": 0.0135,
+          "mcc": 0.0029
+        }
+      }
+    },
+    {
+      "mode": "generic",
+      "medium": "hplm",
+      "nEss": 113,
+      "chronos05": {
+        "all": {
+          "tp": 55904,
+          "fp": 25064,
+          "tn": 1766691,
+          "fn": 166813,
+          "prec": 0.6904,
+          "rec": 0.251,
+          "mcc": 0.3784
+        },
+        "nonCommon": {
+          "tp": 754,
+          "fp": 11648,
+          "tn": 1671093,
+          "fn": 27170,
+          "prec": 0.0608,
+          "rec": 0.027,
+          "mcc": 0.03
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 39353,
+          "fp": 41615,
+          "tn": 1865536,
+          "fn": 67968,
+          "prec": 0.486,
+          "rec": 0.3667,
+          "mcc": 0.3943
+        },
+        "nonCommon": {
+          "tp": 36,
+          "fp": 12366,
+          "tn": 1695633,
+          "fn": 2630,
+          "prec": 0.0029,
+          "rec": 0.0135,
+          "mcc": 0.0029
+        }
+      }
+    },
+    {
+      "mode": "generic_matched_media",
+      "nRpmi": 398,
+      "nDmem": 151,
+      "nDef": 181,
+      "chronos05": {
+        "all": {
+          "tp": 57262,
+          "fp": 25794,
+          "tn": 1765961,
+          "fn": 165455,
+          "prec": 0.6894,
+          "rec": 0.2571,
+          "mcc": 0.3828
+        },
+        "nonCommon": {
+          "tp": 828,
+          "fp": 11997,
+          "tn": 1670744,
+          "fn": 27096,
+          "prec": 0.0646,
+          "rec": 0.0297,
+          "mcc": 0.0331
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 39855,
+          "fp": 43201,
+          "tn": 1863950,
+          "fn": 67466,
+          "prec": 0.4799,
+          "rec": 0.3714,
+          "mcc": 0.3939
+        },
+        "nonCommon": {
+          "tp": 57,
+          "fp": 12768,
+          "tn": 1695231,
+          "fn": 2609,
+          "prec": 0.0044,
+          "rec": 0.0214,
+          "mcc": 0.0064
+        }
+      }
+    }
+  ],
+  "contextBuildAudit50": [
+    {
+      "thresholdTpm": 0.5,
+      "nLines": 50,
+      "avgBuildMs": 38166.4,
+      "avgOff0": 772.2,
+      "avgRescued": 10.8,
+      "avgBlocked": 1385.3,
+      "totalFailedTasks": 0
+    },
+    {
+      "thresholdTpm": 1,
+      "nLines": 50,
+      "avgBuildMs": 22632.7,
+      "avgOff0": 861.9,
+      "avgRescued": 12.6,
+      "avgBlocked": 1558.3,
+      "totalFailedTasks": 0
+    },
+    {
+      "thresholdTpm": 2,
+      "nLines": 50,
+      "avgBuildMs": 20443.4,
+      "avgOff0": 957.6,
+      "avgRescued": 15.2,
+      "avgBlocked": 1752.4,
+      "totalFailedTasks": 0
+    },
+    {
+      "thresholdTpm": 5,
+      "nLines": 50,
+      "avgBuildMs": 18969.3,
+      "avgOff0": 1140.4,
+      "avgRescued": 21.5,
+      "avgBlocked": 2101.6,
+      "totalFailedTasks": 0
+    }
+  ],
+  "thresholdSweepPanel12": [
+    {
+      "thresholdTpm": 0.5,
+      "chronos05": {
+        "all": {
+          "tp": 879,
+          "fp": 364,
+          "tn": 29225,
+          "fn": 2639,
+          "prec": 0.7072,
+          "rec": 0.2499,
+          "mcc": 0.3851
+        },
+        "nonCommon": {
+          "tp": 15,
+          "fp": 187,
+          "tn": 27539,
+          "fn": 378,
+          "prec": 0.0743,
+          "rec": 0.0382,
+          "mcc": 0.0437
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 639,
+          "fp": 604,
+          "tn": 30760,
+          "fn": 1104,
+          "prec": 0.5141,
+          "rec": 0.3666,
+          "mcc": 0.4081
+        },
+        "nonCommon": {
+          "tp": 1,
+          "fp": 201,
+          "tn": 27878,
+          "fn": 39,
+          "prec": 0.005,
+          "rec": 0.025,
+          "mcc": 0.008
+        }
+      }
+    },
+    {
+      "thresholdTpm": 1,
+      "chronos05": {
+        "all": {
+          "tp": 900,
+          "fp": 389,
+          "tn": 29200,
+          "fn": 2618,
+          "prec": 0.6982,
+          "rec": 0.2558,
+          "mcc": 0.3866
+        },
+        "nonCommon": {
+          "tp": 17,
+          "fp": 201,
+          "tn": 27525,
+          "fn": 376,
+          "prec": 0.078,
+          "rec": 0.0433,
+          "mcc": 0.0482
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 644,
+          "fp": 645,
+          "tn": 30719,
+          "fn": 1099,
+          "prec": 0.4996,
+          "rec": 0.3695,
+          "mcc": 0.4028
+        },
+        "nonCommon": {
+          "tp": 1,
+          "fp": 217,
+          "tn": 27862,
+          "fn": 39,
+          "prec": 0.0046,
+          "rec": 0.025,
+          "mcc": 0.0074
+        }
+      }
+    },
+    {
+      "thresholdTpm": 2,
+      "chronos05": {
+        "all": {
+          "tp": 893,
+          "fp": 387,
+          "tn": 29202,
+          "fn": 2625,
+          "prec": 0.6977,
+          "rec": 0.2538,
+          "mcc": 0.3848
+        },
+        "nonCommon": {
+          "tp": 17,
+          "fp": 202,
+          "tn": 27524,
+          "fn": 376,
+          "prec": 0.0776,
+          "rec": 0.0433,
+          "mcc": 0.048
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 643,
+          "fp": 637,
+          "tn": 30727,
+          "fn": 1100,
+          "prec": 0.5023,
+          "rec": 0.3689,
+          "mcc": 0.4038
+        },
+        "nonCommon": {
+          "tp": 1,
+          "fp": 218,
+          "tn": 27861,
+          "fn": 39,
+          "prec": 0.0046,
+          "rec": 0.025,
+          "mcc": 0.0074
+        }
+      }
+    },
+    {
+      "thresholdTpm": 5,
+      "chronos05": {
+        "all": {
+          "tp": 926,
+          "fp": 485,
+          "tn": 29104,
+          "fn": 2592,
+          "prec": 0.6563,
+          "rec": 0.2632,
+          "mcc": 0.3766
+        },
+        "nonCommon": {
+          "tp": 21,
+          "fp": 263,
+          "tn": 27463,
+          "fn": 372,
+          "prec": 0.0739,
+          "rec": 0.0534,
+          "mcc": 0.0516
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 658,
+          "fp": 753,
+          "tn": 30611,
+          "fn": 1085,
+          "prec": 0.4663,
+          "rec": 0.3775,
+          "mcc": 0.3908
+        },
+        "nonCommon": {
+          "tp": 2,
+          "fp": 282,
+          "tn": 27797,
+          "fn": 38,
+          "prec": 0.007,
+          "rec": 0.05,
+          "mcc": 0.0151
+        }
+      }
+    }
+  ],
+  "hpaVsDepmapPanel12": {
+    "generic_defaultSerum": {
+      "chronos05": {
+        "all": {
+          "tp": 860,
+          "fp": 350,
+          "tn": 29239,
+          "fn": 2658,
+          "prec": 0.7107,
+          "rec": 0.2445,
+          "mcc": 0.382
+        },
+        "nonCommon": {
+          "tp": 12,
+          "fp": 180,
+          "tn": 27546,
+          "fn": 381,
+          "prec": 0.0625,
+          "rec": 0.0305,
+          "mcc": 0.0343
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 633,
+          "fp": 577,
+          "tn": 30787,
+          "fn": 1110,
+          "prec": 0.5231,
+          "rec": 0.3632,
+          "mcc": 0.4103
+        },
+        "nonCommon": {
+          "tp": 0,
+          "fp": 192,
+          "tn": 27887,
+          "fn": 40,
+          "prec": 0,
+          "rec": 0,
+          "mcc": -0.0031
+        }
+      }
+    },
+    "hpa_defaultSerum": {
+      "chronos05": {
+        "all": {
+          "tp": 903,
+          "fp": 415,
+          "tn": 29174,
+          "fn": 2615,
+          "prec": 0.6851,
+          "rec": 0.2567,
+          "mcc": 0.3825
+        },
+        "nonCommon": {
+          "tp": 15,
+          "fp": 208,
+          "tn": 27518,
+          "fn": 378,
+          "prec": 0.0673,
+          "rec": 0.0382,
+          "mcc": 0.0406
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 645,
+          "fp": 673,
+          "tn": 30691,
+          "fn": 1098,
+          "prec": 0.4894,
+          "rec": 0.3701,
+          "mcc": 0.3982
+        },
+        "nonCommon": {
+          "tp": 1,
+          "fp": 222,
+          "tn": 27857,
+          "fn": 39,
+          "prec": 0.0045,
+          "rec": 0.025,
+          "mcc": 0.0073
+        }
+      }
+    },
+    "depmap1Tpm_matchedMedium": {
+      "chronos05": {
+        "all": {
+          "tp": 976,
+          "fp": 563,
+          "tn": 29026,
+          "fn": 2542,
+          "prec": 0.6342,
+          "rec": 0.2774,
+          "mcc": 0.3782
+        },
+        "nonCommon": {
+          "tp": 21,
+          "fp": 257,
+          "tn": 27469,
+          "fn": 372,
+          "prec": 0.0755,
+          "rec": 0.0534,
+          "mcc": 0.0524
+        }
+      },
+      "chronos10": {
+        "all": {
+          "tp": 677,
+          "fp": 862,
+          "tn": 30502,
+          "fn": 1066,
+          "prec": 0.4399,
+          "rec": 0.3884,
+          "mcc": 0.3829
+        },
+        "nonCommon": {
+          "tp": 1,
+          "fp": 277,
+          "tn": 27802,
+          "fn": 39,
+          "prec": 0.0036,
+          "rec": 0.025,
+          "mcc": 0.0058
+        }
+      }
+    }
+  }
+}
