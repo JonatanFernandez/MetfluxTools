@@ -13,6 +13,9 @@ import { DICT } from "../js/i18n.js";
 import { parseExoTable, groupForRates, ratesFromReplicates, growthRate } from "../js/core/exodata.js";
 import { parseWideTable, splitByPattern, contrast, ratioChanges } from "../js/core/metcontrast.js";
 import { parseRnaDiffTable, inferRegulatorsMultiOmic } from "../js/core/reginfer.js";
+import { MEDIA } from "../js/core/medium.js";
+import { MEASURED_SETS } from "../js/core/measured.js";
+import { OBJECTIVES } from "../js/core/objectives.js";
 
 const R = new URL("../", import.meta.url).pathname;
 let bad = 0;
@@ -76,6 +79,38 @@ for (const d of DEMOS) {
     && extraLangs.every((l) => extraDocs[l].includes(`id="${l}-${d.docs}"`));
   ok(docsOk, `${d.id}: linked Docs anchor (#${d.docs}) exists in all 7 languages`);
   ok(!!d.cite, `${d.id}: names the work its data comes from`);
+}
+
+console.log("\n== every worked example pins its own setup, and for the right organism");
+// An example that leaves a setting unpinned inherits whatever the reader had, and the cell-type context is
+// remembered per model in localStorage, so it carries across sessions. That made every example's result
+// depend on something it never declared. Each one must now name all six.
+for (const d of DEMOS) {
+  const has = new Set(d.actions.map((a) => a[0]));
+  if (d.needs?.model) has.add("model");
+  const miss = ["model", "context", "medium", "measured", "objective", "clearPerturb"].filter((k) => !has.has(k));
+  ok(!miss.length, `${d.id}: pins its whole setup${miss.length ? " — leaves to chance: " + miss.join(", ") : ""}`);
+
+  const org = d.needs?.model;
+  const wrong = [];
+  for (const [k, v] of d.actions) {
+    if (k === "medium") {
+      const m = MEDIA.find((x) => x.id === v);
+      if (!m) wrong.push(`medium "${v}" does not exist`);
+      else if ((m.org || "human-gem") !== org) wrong.push(`medium "${v}" belongs to ${m.org || "the animal models"}, not ${org}`);
+    }
+    if (k === "measured" && v !== "none") {
+      const m = MEASURED_SETS.find((x) => x.id === v);
+      if (!m) wrong.push(`measured set "${v}" does not exist`);
+      else if ((m.org || "human-gem") !== org) wrong.push(`measured set "${v}" belongs to ${m.org || "the animal models"}, not ${org}`);
+    }
+    if (k === "objective") {
+      const o = OBJECTIVES.find((x) => x.id === v);
+      if (!o) wrong.push(`objective "${v}" does not exist`);
+      else if (o.rxn && org !== "human-gem") wrong.push(`objective "${v}" names ${o.rxn}, a Human-GEM reaction, in ${org}`);
+    }
+  }
+  ok(!wrong.length, `${d.id}: its medium, rates and objective belong to ${org}${wrong.length ? " — " + wrong.join("; ") : ""}`);
 }
 
 console.log("\n== the medium table gives back the rates it was built from");

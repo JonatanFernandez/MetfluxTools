@@ -204,16 +204,19 @@ is only needed to reproduce the 122-line subset, not the 730-line run.
 
 ## 6b. Signed regulatory networks (`tools/build_regulons.mjs`)
 
-Downloaded on **24 November** and cached under `tools/cache/regulons/`. The build script keeps the cache, so a rerun does
+Downloaded on **24 November** (rat on **25 November**) and cached under `tools/cache/regulons/`. The build script keeps the cache, so a rerun does
 not download again; delete a cached file to refresh it.
 
-**CollecTRI for human and mouse**, through the OmniPath web service (Muller-Dott *et al.*, *NAR* 2023; Turei *et al.*).
-CollecTRI is **CC BY-SA 4.0**, which is why the human and mouse regulon files are distributed under that licence.
+**CollecTRI for human, mouse and rat**, through the OmniPath web service (Muller-Dott *et al.*, *NAR* 2023; Turei *et al.*).
+CollecTRI is **CC BY-SA 4.0**, which is why the human, mouse and rat regulon files are distributed under that licence. The mouse and rat
+networks are CollecTRI mapped by orthology, not curated in those species; rat coverage is thinner (425 of 2,804
+metabolic genes). CollecTRI serves no further organism: the API rejects 7227 (fly), 6239 (worm) and 7955 (zebrafish).
 
 | File | Query | SHA-256 |
 |---|---|---|
 | `collectri_9606.tsv` | `https://omnipathdb.org/interactions?datasets=collectri&organisms=9606&genesymbols=yes&fields=sources` | `67e89b12ab66b59acbcd4dc3c10d7fb7045a2fce17f85d3a8fceaa51dab984ec` |
 | `collectri_10090.tsv` | the same with `organisms=10090` | `c7873e461a92da93c9946d5539b83b40dd88e0e1cbd00321ec939383d6719932` |
+| `collectri_10116.tsv` | the same with `organisms=10116` (rat, by orthology) | `2bfeadac4f3719620c4aa63e01d9c135aded129dcef6972f33744005dd9f1045` |
 
 **RegulonDB v14.5.1 for *E. coli*** (CCG-UNAM, Salgado *et al.* 2024), through the GraphQL endpoint at
 `https://regulondb.ccg.unam.mx/graphql`, dataset `NetworkRegulatorGene`. Its plain download URLs no longer resolve; the
@@ -226,7 +229,7 @@ here, so the *E. coli* regulon file cannot be redistributed commercially. This i
 
 The build keeps only edges whose target is a metabolic gene of the corresponding model and whose sign is unambiguous;
 edges annotated as both activating and repressing are discarded. The result is `data/<slug>/regulons.json`
-(human 917 TFs / 1,327 metabolic genes; mouse 838 / 1,069; *E. coli* 239 / 1,129), used by `js/core/reginfer.js`.
+(human 917 TFs / 1,327 metabolic genes; mouse 838 / 1,069; rat 837 / 425; *E. coli* 239 / 1,129), used by `js/core/reginfer.js`.
 
 ## 7. Values taken from papers into the application (the files are not kept)
 

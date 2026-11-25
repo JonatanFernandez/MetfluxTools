@@ -1,6 +1,7 @@
 // Build compact signed TF-target regulon files (data/<slug>/regulons.json) for MetfluxLive:
 //   - human-gem: CollecTRI via OmniPath API (organism 9606)
 //   - mouse-gem: CollecTRI via OmniPath API (organism 10090)
+//   - rat-gem:   CollecTRI via OmniPath API (organism 10116, orthology; thinner coverage)
 //   - ecoli-gem: RegulonDB NetworkRegulatorGene via GraphQL API
 //
 // Format of data/<slug>/regulons.json:
@@ -194,7 +195,21 @@ async function main() {
     license: "Open academic/research via OmniPath (Müller-Dott et al., NAR 2023)",
   });
 
-  // 3. E. coli RegulonDB
+  // 3. Rat, the same CollecTRI orthology route as mouse. Coverage is thinner (429 of 2,804 metabolic
+  // genes against 1,069 for mouse), which the meta records so the interface can say so.
+  console.log("Building rat-gem regulons (CollecTRI / OmniPath orthology)...");
+  const ratTsv = await cachedFetch("collectri_10116.tsv", async () => {
+    const r = await fetch("https://omnipathdb.org/interactions?datasets=collectri&organisms=10116&genesymbols=yes&fields=sources");
+    if (!r.ok) throw new Error(`OmniPath rat HTTP ${r.status}`);
+    return r.text();
+  });
+  compileRegulons(parseCollecTRI(ratTsv), "rat-gem", {
+    source: "CollecTRI (OmniPath orthology)",
+    organism: "Rattus norvegicus (10116)",
+    license: "Open academic/research via OmniPath (Müller-Dott et al., NAR 2023)",
+  });
+
+  // 4. E. coli RegulonDB
   console.log("Building ecoli-gem regulons (RegulonDB NetworkRegulatorGene)...");
   let rdbVersion = "14.5.1";
   const ecoliTsv = await cachedFetch("regulondb_NetworkRegulatorGene.tsv", async () => {
