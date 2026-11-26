@@ -231,6 +231,32 @@ The build keeps only edges whose target is a metabolic gene of the corresponding
 edges annotated as both activating and repressing are discarded. The result is `data/<slug>/regulons.json`
 (human 917 TFs / 1,327 metabolic genes; mouse 838 / 1,069; rat 837 / 425; *E. coli* 239 / 1,129), used by `js/core/reginfer.js`.
 
+## 6c. The paired multi-omic worked example (`data/demos/`)
+
+The only experiment we found where a whole transcriptome and an intracellular metabolome of the **same cultures**
+are both public: anaerobic double mutants of *E. coli* K-12 MG1655 from the Systems Biology and Metabolic
+Engineering Laboratory, IIT Bombay. Four strains (WT, Δ*fnr*Δ*arcA*, Δ*arcA*Δ*ihf*, Δ*fnr*Δ*ihf*) grown together
+in glucose minimal medium under anaerobic fermentation, with matching sample names in both repositories.
+
+| Source | What | Where |
+|---|---|---|
+| **GEO GSE195954** | RNA-seq raw counts, 4,466 genes, 2 replicates per strain | `tools/cache/GSE195954_Raw_counts_msi.txt.gz` |
+| **Metabolomics Workbench ST002076** | 21 intracellular metabolites, 6 samples per strain | `tools/validation/metabolomics/ST002076.mwtab` |
+
+`tools/` is not shipped, so the two tables the worked example loads are derived into `data/demos/` by
+`scratchpad` generation (CPM + moderated *t* for the transcriptome, as every other RNA-seq benchmark here;
+the metabolite matrix is the mwtab block for the two conditions with a `group` row added):
+
+| File | SHA-256 |
+|---|---|
+| `data/demos/ecoli_arcA_ihf_rnaseq.tsv` | `be64868409299246587b695ed4c2361b750118f98f50d8f5f60f730b844989bf` |
+| `data/demos/ecoli_arcA_ihf_metabolomics.tsv` | `9ff851213f273cbc55cdea2a95184ad028a3c3a914fba576deb00e6f3c196de7` |
+
+The design carries its own specificity control: each strain lacks two of the three global anaerobic regulators,
+so the expected answer differs per contrast. Measured with `inferRegulatorsMultiOmic`, the two deleted factors
+outrank the intact one every time -- Δ*arcA*Δ*ihf*: ArcA 3rd, IHF 8th, FNR 130th; Δ*fnr*Δ*arcA*: ArcA 3rd,
+FNR 4th, IHF 150th; Δ*fnr*Δ*ihf*: IHF 2nd, FNR 33rd, ArcA 44th.
+
 ## 7. Values taken from papers into the application (the files are not kept)
 
 These were read once; the numbers are in `js/core/measured.js`, `js/core/medium.js` and `docs.html`, each with its
